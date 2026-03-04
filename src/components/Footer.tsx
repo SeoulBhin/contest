@@ -12,7 +12,7 @@ export default function Footer() {
             마지막 업데이트: {formatLastUpdated(lastUpdated)}
           </p>
           <p>
-            데이터 출처: 링커리어, 컨테스트코리아, 씽굿
+            데이터 출처: 링커리어, 컨테스트코리아, 씽굿, 위비티, 데이콘
           </p>
           <p className="mt-2 text-xs text-gray-400">
             본 사이트는 공모전 정보를 자동 수집하여 제공하며, 정확한 내용은 각
