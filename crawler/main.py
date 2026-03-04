@@ -6,8 +6,8 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from scrapers import ContestKoreaScraper, ThinkContestScraper, LinkareerScraper
-from utils.dedup import deduplicate_contests
+from .scrapers import ContestKoreaScraper, ThinkContestScraper, LinkareerScraper
+from .utils.dedup import deduplicate_contests
 
 # 로깅 설정
 logging.basicConfig(

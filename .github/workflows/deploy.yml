@@ -39,7 +39,7 @@ jobs:
         run: pip install -r crawler/requirements.txt
 
       - name: Run crawler
-        run: python crawler/main.py
+        run: python -m crawler.main
         env:
           PYTHONUNBUFFERED: "1"
 
