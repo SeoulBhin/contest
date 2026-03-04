@@ -50,7 +50,6 @@ class ContestKoreaScraper(BaseScraper):
                     self.logger.warning(f"ContestKorea 항목 파싱 실패: {e}")
                     continue
 
-                self._delay()
 
         except Exception as e:
             self.logger.error(f"ContestKorea 크롤링 실패: {e}")
