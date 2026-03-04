@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from .scrapers import ContestKoreaScraper, ThinkContestScraper, LinkareerScraper
+from .scrapers import ContestKoreaScraper, ThinkContestScraper, LinkareerScraper, WevityScraper, DaconScraper
 from .utils.dedup import deduplicate_contests
 
 # 로깅 설정
@@ -93,7 +93,7 @@ def main():
     logger.info(f"기존 데이터: {len(existing)}개")
 
     # 각 스크래퍼 실행
-    scrapers = [ContestKoreaScraper, ThinkContestScraper, LinkareerScraper]
+    scrapers = [ContestKoreaScraper, ThinkContestScraper, LinkareerScraper, WevityScraper, DaconScraper]
     new_contests: list[dict] = []
     success_count = 0
 
