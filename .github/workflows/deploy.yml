@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 매일 자정 KST (UTC 15:00)
+    - cron: "0 23 * * *" # 매일 아침 8시 KST (UTC 23:00)
   workflow_dispatch:
   push:
     branches: [main]

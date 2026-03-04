@@ -109,7 +109,10 @@ def send_webhook(webhook_url: str, embeds: list[dict]):
             "embeds": batch,
         }).encode("utf-8")
 
-        req = Request(webhook_url, data=payload, headers={"Content-Type": "application/json"})
+        req = Request(webhook_url, data=payload, headers={
+            "Content-Type": "application/json",
+            "User-Agent": "DevContestKR-Bot/1.0",
+        })
         try:
             with urlopen(req) as resp:
                 logger.info(f"Webhook 전송 성공 (batch {i // 10 + 1}, status {resp.status})")
