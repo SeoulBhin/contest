@@ -17,7 +17,7 @@ export function getActiveContests(referenceDate?: Date): Contest[] {
   const now = referenceDate || new Date();
   const today = now.toISOString().split("T")[0];
   return getAllContests()
-    .filter((c) => c.deadline >= today)
+    .filter((c) => c.status === "active" || c.deadline >= today)
     .sort((a, b) => a.deadline.localeCompare(b.deadline));
 }
 
@@ -25,7 +25,7 @@ export function getCompletedContests(referenceDate?: Date): Contest[] {
   const now = referenceDate || new Date();
   const today = now.toISOString().split("T")[0];
   return getAllContests()
-    .filter((c) => c.deadline < today)
+    .filter((c) => c.status === "completed" || c.deadline < today)
     .sort((a, b) => b.deadline.localeCompare(a.deadline));
 }
 

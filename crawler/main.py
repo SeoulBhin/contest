@@ -125,6 +125,14 @@ def main():
     # 중복 제거
     all_contests = deduplicate_contests(all_contests)
 
+    # 마감된 공모전 status 갱신
+    today = datetime.now().strftime("%Y-%m-%d")
+    for c in all_contests:
+        if c.get("deadline", "9999-99-99") < today:
+            c["status"] = "completed"
+        else:
+            c.setdefault("status", "active")
+
     # 오래된 공모전 정리
     all_contests = cleanup_old_contests(all_contests)
 

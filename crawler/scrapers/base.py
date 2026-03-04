@@ -23,6 +23,7 @@ class ContestItem:
     source: str
     tags: list[str] = field(default_factory=list)
     scrapedAt: str = ""
+    status: str = "active"
 
     def to_dict(self) -> dict:
         return asdict(self)

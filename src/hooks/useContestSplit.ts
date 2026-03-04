@@ -12,12 +12,12 @@ export function useContestSplit(contests: Contest[]) {
     const today = new Date().toISOString().split("T")[0];
     setActive(
       contests
-        .filter((c) => c.deadline >= today)
+        .filter((c) => c.status === "active" || c.deadline >= today)
         .sort((a, b) => a.deadline.localeCompare(b.deadline))
     );
     setCompleted(
       contests
-        .filter((c) => c.deadline < today)
+        .filter((c) => c.status === "completed" || c.deadline < today)
         .sort((a, b) => b.deadline.localeCompare(a.deadline))
     );
     setIsReady(true);

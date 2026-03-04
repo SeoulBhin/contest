@@ -10,7 +10,9 @@ export type ContestCategory =
   | "sw_general"
   | "other";
 
-export type ContestSource = "linkareer" | "contestkorea" | "thinkcontest";
+export type ContestSource = "linkareer" | "contestkorea" | "thinkcontest" | "wevity" | "dacon";
+
+export type ContestStatus = "active" | "completed";
 
 export interface Contest {
   id: string;
@@ -26,6 +28,7 @@ export interface Contest {
   source: ContestSource;
   tags: string[];
   scrapedAt: string;
+  status: ContestStatus;
 }
 
 export interface ContestsData {
@@ -51,4 +54,6 @@ export const SOURCE_LABELS: Record<ContestSource, string> = {
   linkareer: "링커리어",
   contestkorea: "컨테스트코리아",
   thinkcontest: "씽굿",
+  wevity: "위비티",
+  dacon: "데이콘",
 };

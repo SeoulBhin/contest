@@ -43,6 +43,11 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
 
+      - name: Send Discord notifications
+        run: python -m crawler.notify
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
       - name: Commit crawled data
         run: |
           git config user.name "github-actions[bot]"
