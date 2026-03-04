@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-04T04:14:22.651427",
-  "totalCount": 25,
+  "lastUpdated": "2026-03-04T04:20:29.944450",
+  "totalCount": 15,
   "contests": [
     {
       "id": "dacon-236630",
@@ -20,7 +20,7 @@
         "유전자",
         "Cosine Distance"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649093",
+      "scrapedAt": "2026-03-04T04:20:29.941390",
       "status": "completed"
     },
     {
@@ -42,7 +42,7 @@
         "RAG",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649105",
+      "scrapedAt": "2026-03-04T04:20:29.941405",
       "status": "completed"
     },
     {
@@ -64,7 +64,7 @@
         "LLM",
         "RAG"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649085",
+      "scrapedAt": "2026-03-04T04:20:29.941376",
       "status": "completed"
     },
     {
@@ -86,7 +86,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649059",
+      "scrapedAt": "2026-03-04T04:20:29.941333",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649075",
+      "scrapedAt": "2026-03-04T04:20:29.941358",
       "status": "completed"
     },
     {
@@ -130,7 +130,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649051",
+      "scrapedAt": "2026-03-04T04:20:29.941313",
       "status": "completed"
     },
     {
@@ -152,7 +152,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649022",
+      "scrapedAt": "2026-03-04T04:20:29.941274",
       "status": "completed"
     },
     {
@@ -173,7 +173,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649007",
+      "scrapedAt": "2026-03-04T04:20:29.941263",
       "status": "completed"
     },
     {
@@ -194,7 +194,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.649034",
+      "scrapedAt": "2026-03-04T04:20:29.941293",
       "status": "completed"
     },
     {
@@ -216,7 +216,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.648984",
+      "scrapedAt": "2026-03-04T04:20:29.941244",
       "status": "completed"
     },
     {
@@ -234,7 +234,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-04T04:13:55.383366",
+      "scrapedAt": "2026-03-04T04:20:10.119051",
       "status": "active"
     },
     {
@@ -252,39 +252,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-04T04:13:55.381896",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602260023",
-      "title": "2026 방콘진 혁신 방송 신기술 상용화 지원 공모 사업",
-      "description": "",
-      "organizer": "방송콘텐츠진흥재단",
-      "deadline": "2026-03-19",
-      "startDate": "2026-03-02",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602260023",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.384783",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603030001",
-      "title": "한미 첨단분야 청년교류 지원사업 제5기 장학생 선발 공고",
-      "description": "",
-      "organizer": "산업통상부",
-      "deadline": "2026-03-25",
-      "startDate": "2026-01-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030001",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.382804",
+      "scrapedAt": "2026-03-04T04:20:10.117339",
       "status": "active"
     },
     {
@@ -306,7 +274,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-04T04:14:22.648963",
+      "scrapedAt": "2026-03-04T04:20:29.941221",
       "status": "active"
     },
     {
@@ -322,119 +290,7 @@
       "category": "other",
       "source": "thinkcontest",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:13:58.891884",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602270033",
-      "title": "[충주학연구소] 2026년 충주학 신진연구자 학술연구과제 공모",
-      "description": "",
-      "organizer": "충주문화원 부설 충주학연구소",
-      "deadline": "2026-04-10",
-      "startDate": "2026-02-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602270033",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.384224",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602270031",
-      "title": "[충주학연구소] 충주학 연구 제6호 논문 모집(연구비 지원)",
-      "description": "",
-      "organizer": "충주문화원 부설 충주학연구소",
-      "deadline": "2026-04-10",
-      "startDate": "2026-02-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602270031",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.384509",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602280014",
-      "title": "청소년 국제 평화 포럼 에세이 공모전",
-      "description": "",
-      "organizer": "동백 프로젝트",
-      "deadline": "2026-04-18",
-      "startDate": "2026-03-23",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602280014",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.383645",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602250002",
-      "title": "제15회 에너지·환경 탐구대회",
-      "description": "",
-      "organizer": "삼성E&A 꿈나무 푸른교실",
-      "deadline": "2026-04-19",
-      "startDate": "2026-03-09",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602250002",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.385348",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603040003",
-      "title": "2026년 대한민국 학생창의력 챔피언대회",
-      "description": "",
-      "organizer": "지식재산처",
-      "deadline": "2026-04-22",
-      "startDate": "2026-03-06",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603040003",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.382224",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603030048",
-      "title": "[초록우산] 동광 제121권 제1호 투고 논문 모집",
-      "description": "",
-      "organizer": "초록우산",
-      "deadline": "2026-04-30",
-      "startDate": "2026-03-01",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030048",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.382510",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603030036",
-      "title": "2026 엔지니어링산업 경진대회",
-      "description": "",
-      "organizer": "산업통상부",
-      "deadline": "2026-04-30",
-      "startDate": "2026-03-03",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030036",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.383093",
+      "scrapedAt": "2026-03-04T04:20:14.391880",
       "status": "active"
     },
     {
@@ -452,23 +308,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-04T04:13:55.383948",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602250031",
-      "title": "2026년 제1회 소방안전분야 학술논문 공모전",
-      "description": "",
-      "organizer": "한국소방안전원",
-      "deadline": "2026-05-29",
-      "startDate": "2026-04-01",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602250031",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:13:55.385073",
+      "scrapedAt": "2026-03-04T04:20:10.119704",
       "status": "active"
     }
   ]
