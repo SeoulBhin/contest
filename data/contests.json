@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T02:56:54.371924",
+  "lastUpdated": "2026-03-04T03:11:47.046018",
   "totalCount": 14,
   "contests": [
     {
@@ -17,7 +17,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-04T02:56:18.210304"
+      "scrapedAt": "2026-03-04T03:11:26.344028"
     },
     {
       "id": "contestkorea-202602060058",
@@ -34,7 +34,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-04T02:56:18.208553"
+      "scrapedAt": "2026-03-04T03:11:26.342325"
     },
     {
       "id": "contestkorea-202602260023",
@@ -49,7 +49,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.211977"
+      "scrapedAt": "2026-03-04T03:11:26.345623"
     },
     {
       "id": "contestkorea-202603030001",
@@ -64,7 +64,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.209603"
+      "scrapedAt": "2026-03-04T03:11:26.343353"
     },
     {
       "id": "thinkcontest-102414",
@@ -79,7 +79,7 @@
       "category": "other",
       "source": "thinkcontest",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:23.509999"
+      "scrapedAt": "2026-03-04T03:11:29.784304"
     },
     {
       "id": "contestkorea-202602270033",
@@ -94,7 +94,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.211290"
+      "scrapedAt": "2026-03-04T03:11:26.344977"
     },
     {
       "id": "contestkorea-202602270031",
@@ -109,7 +109,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.211623"
+      "scrapedAt": "2026-03-04T03:11:26.345295"
     },
     {
       "id": "contestkorea-202602280014",
@@ -124,7 +124,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.210613"
+      "scrapedAt": "2026-03-04T03:11:26.344335"
     },
     {
       "id": "contestkorea-202602250002",
@@ -139,7 +139,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.212595"
+      "scrapedAt": "2026-03-04T03:11:26.346237"
     },
     {
       "id": "contestkorea-202603040003",
@@ -154,7 +154,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.208942"
+      "scrapedAt": "2026-03-04T03:11:26.342706"
     },
     {
       "id": "contestkorea-202603030048",
@@ -169,7 +169,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.209272"
+      "scrapedAt": "2026-03-04T03:11:26.343034"
     },
     {
       "id": "contestkorea-202603030036",
@@ -184,7 +184,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.209993"
+      "scrapedAt": "2026-03-04T03:11:26.343722"
     },
     {
       "id": "contestkorea-202602240001",
@@ -201,7 +201,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-04T02:56:18.210974"
+      "scrapedAt": "2026-03-04T03:11:26.344665"
     },
     {
       "id": "contestkorea-202602250031",
@@ -216,7 +216,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T02:56:18.212285"
+      "scrapedAt": "2026-03-04T03:11:26.345927"
     }
   ]
 }
