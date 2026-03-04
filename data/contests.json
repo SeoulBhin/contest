@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-04T04:37:12.028617",
-  "totalCount": 25,
+  "lastUpdated": "2026-03-04T23:22:09.589409",
+  "totalCount": 24,
   "contests": [
     {
       "id": "dacon-236630",
@@ -20,7 +20,7 @@
         "유전자",
         "Cosine Distance"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025809",
+      "scrapedAt": "2026-03-04T23:22:09.586715",
       "status": "completed"
     },
     {
@@ -42,7 +42,7 @@
         "RAG",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025831",
+      "scrapedAt": "2026-03-04T23:22:09.586723",
       "status": "completed"
     },
     {
@@ -64,7 +64,7 @@
         "LLM",
         "RAG"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025794",
+      "scrapedAt": "2026-03-04T23:22:09.586706",
       "status": "completed"
     },
     {
@@ -86,7 +86,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025753",
+      "scrapedAt": "2026-03-04T23:22:09.586678",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025777",
+      "scrapedAt": "2026-03-04T23:22:09.586696",
       "status": "completed"
     },
     {
@@ -130,7 +130,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025738",
+      "scrapedAt": "2026-03-04T23:22:09.586665",
       "status": "completed"
     },
     {
@@ -152,7 +152,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025705",
+      "scrapedAt": "2026-03-04T23:22:09.586627",
       "status": "completed"
     },
     {
@@ -173,7 +173,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025683",
+      "scrapedAt": "2026-03-04T23:22:09.586596",
       "status": "completed"
     },
     {
@@ -194,7 +194,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025721",
+      "scrapedAt": "2026-03-04T23:22:09.586649",
       "status": "completed"
     },
     {
@@ -216,7 +216,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025656",
+      "scrapedAt": "2026-03-04T23:22:09.586574",
       "status": "completed"
     },
     {
@@ -234,7 +234,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-04T04:36:54.304703",
+      "scrapedAt": "2026-03-04T23:21:49.638211",
       "status": "active"
     },
     {
@@ -252,7 +252,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-04T04:36:54.303001",
+      "scrapedAt": "2026-03-04T23:21:49.636057",
       "status": "active"
     },
     {
@@ -268,7 +268,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.306390",
+      "scrapedAt": "2026-03-04T23:21:49.639886",
       "status": "active"
     },
     {
@@ -284,7 +284,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.304057",
+      "scrapedAt": "2026-03-04T23:21:49.637522",
       "status": "active"
     },
     {
@@ -306,23 +306,23 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-04T04:37:12.025622",
+      "scrapedAt": "2026-03-04T23:22:09.586542",
       "status": "active"
     },
     {
-      "id": "thinkcontest-102414",
-      "title": "「2026 Planet in Heart : 지구를 그리다」",
+      "id": "contestkorea-202603040020",
+      "title": "2026 대한민국 드론공방전",
       "description": "",
-      "organizer": "연세대학교 지구건강연구소",
+      "organizer": "국방부 외 5개 정부 부처",
       "deadline": "2026-03-31",
-      "startDate": "2026-03-15",
+      "startDate": "2026-03-04",
       "prize": "",
-      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102414",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/f8c4a895e9564002942378781e98b61b.png",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603040020",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
       "category": "other",
-      "source": "thinkcontest",
+      "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:57.409762",
+      "scrapedAt": "2026-03-04T23:21:49.636447",
       "status": "active"
     },
     {
@@ -338,7 +338,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.305710",
+      "scrapedAt": "2026-03-04T23:21:49.639217",
       "status": "active"
     },
     {
@@ -354,7 +354,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.306065",
+      "scrapedAt": "2026-03-04T23:21:49.639552",
       "status": "active"
     },
     {
@@ -370,23 +370,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.305049",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602250002",
-      "title": "제15회 에너지·환경 탐구대회",
-      "description": "",
-      "organizer": "삼성E&A 꿈나무 푸른교실",
-      "deadline": "2026-04-19",
-      "startDate": "2026-03-09",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602250002",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.307039",
+      "scrapedAt": "2026-03-04T23:21:49.638551",
       "status": "active"
     },
     {
@@ -402,7 +386,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.303368",
+      "scrapedAt": "2026-03-04T23:21:49.636822",
       "status": "active"
     },
     {
@@ -418,7 +402,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.303693",
+      "scrapedAt": "2026-03-04T23:21:49.637177",
       "status": "active"
     },
     {
@@ -434,7 +418,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.304388",
+      "scrapedAt": "2026-03-04T23:21:49.637895",
       "status": "active"
     },
     {
@@ -452,7 +436,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-04T04:36:54.305387",
+      "scrapedAt": "2026-03-04T23:21:49.638898",
       "status": "active"
     },
     {
@@ -464,11 +448,11 @@
       "startDate": "2026-04-01",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602250031",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-04T04:36:54.306708",
+      "scrapedAt": "2026-03-04T23:21:49.640216",
       "status": "active"
     }
   ]
