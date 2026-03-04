@@ -1,4 +1,0 @@
-[     911ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://www.contestkorea.com/site.webmanifest:0
-[     911ms] [ERROR] Manifest fetch from https://www.contestkorea.com/site.webmanifest failed, code 404 @ https://www.contestkorea.com/sub/list.php?int_gbn=1&Ession=10005&order=1:0
-[    1815ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://www.contestkorea.com/site.webmanifest:0
-[    1815ms] [ERROR] Manifest fetch from https://www.contestkorea.com/site.webmanifest failed, code 404 @ https://www.contestkorea.com/sub/list.php?int_gbn=1&Ession=10005&order=1:0
