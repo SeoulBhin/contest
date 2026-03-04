@@ -8,6 +8,7 @@ from pathlib import Path
 
 from .scrapers import ContestKoreaScraper, ThinkContestScraper, LinkareerScraper, WevityScraper, DaconScraper
 from .utils.dedup import deduplicate_contests
+from .utils.filter import filter_cs_contests
 
 # 로깅 설정
 logging.basicConfig(
@@ -124,6 +125,9 @@ def main():
 
     # 중복 제거
     all_contests = deduplicate_contests(all_contests)
+
+    # IT/컴퓨터공학 관련 공모전만 필터링
+    all_contests = filter_cs_contests(all_contests)
 
     # 마감된 공모전 status 갱신
     today = datetime.now().strftime("%Y-%m-%d")
