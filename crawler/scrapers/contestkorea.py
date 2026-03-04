@@ -19,9 +19,8 @@ class ContestKoreaScraper(BaseScraper):
 
         try:
             params = {
-                "int_gbn": "1",       # 공모전
-                "Ession": "10005",    # IT/소프트웨어/콘텐츠
-                "order": "1",         # 접수중
+                "int_gbn": "1",
+                "Txt_bcode": "030310001",  # 학문·과학·IT
             }
             response = requests.get(
                 self.LIST_URL,
@@ -33,11 +32,14 @@ class ContestKoreaScraper(BaseScraper):
             response.encoding = "utf-8"
             soup = BeautifulSoup(response.text, "lxml")
 
-            items = soup.select("ul.list_style2 > li")
-            if not items:
-                items = soup.select("div.list_area li")
-            if not items:
-                items = soup.select(".contest_list li, .list_wrap li")
+            # div.title 안에 view.php 링크가 있는 li를 찾는다
+            items = []
+            for title_div in soup.select("div.title"):
+                link = title_div.select_one('a[href*="view.php"]')
+                if link:
+                    li = title_div.find_parent("li")
+                    if li:
+                        items.append(li)
 
             self.logger.info(f"ContestKorea: {len(items)}개 항목 발견")
 
@@ -50,7 +52,6 @@ class ContestKoreaScraper(BaseScraper):
                     self.logger.warning(f"ContestKorea 항목 파싱 실패: {e}")
                     continue
 
-
         except Exception as e:
             self.logger.error(f"ContestKorea 크롤링 실패: {e}")
 
@@ -58,7 +59,7 @@ class ContestKoreaScraper(BaseScraper):
         return contests
 
     def _parse_item(self, item: BeautifulSoup) -> ContestItem | None:
-        link_tag = item.select_one("a[href]")
+        link_tag = item.select_one('div.title a[href*="view.php"]')
         if not link_tag:
             return None
 
@@ -66,30 +67,34 @@ class ContestKoreaScraper(BaseScraper):
         if not href:
             return None
 
-        # ID 추출
-        id_match = re.search(r"[?&]id=(\d+)", href)
-        contest_id = f"contestkorea-{id_match.group(1)}" if id_match else None
-        if not contest_id:
+        # ID 추출 (str_no 파라미터)
+        id_match = re.search(r"str_no=(\w+)", href)
+        if not id_match:
             return None
+        contest_id = f"contestkorea-{id_match.group(1)}"
 
-        url = href if href.startswith("http") else f"{self.BASE_URL}{href}"
+        url = href if href.startswith("http") else f"{self.BASE_URL}/sub/{href}"
 
-        # 제목
-        title_tag = item.select_one(".txt, .title, h3, h4, .tit")
-        title = title_tag.get_text(strip=True) if title_tag else link_tag.get_text(strip=True)
+        # 제목 (span.txt)
+        title_tag = item.select_one("span.txt")
+        title = title_tag.get_text(strip=True) if title_tag else ""
         if not title:
             return None
 
-        # 주최자
-        org_tag = item.select_one(".org, .company, .host")
-        organizer = org_tag.get_text(strip=True) if org_tag else ""
+        # 주최자 (ul.host li.icon_1 에서 "주최 ." 뒤의 텍스트)
+        organizer = ""
+        org_tag = item.select_one("ul.host li.icon_1")
+        if org_tag:
+            org_text = org_tag.get_text(strip=True)
+            organizer = re.sub(r"^주최\s*[.·]\s*", "", org_text)
 
-        # 날짜
-        date_tag = item.select_one(".date, .period, .day")
+        # 날짜 (div.date-detail > span.step-1 의 접수 기간)
         deadline = None
         start_date = None
-        if date_tag:
-            date_text = date_tag.get_text(strip=True)
+        step1 = item.select_one(".date-detail .step-1")
+        if step1:
+            date_text = step1.get_text(strip=True)
+            date_text = re.sub(r"^접수\s*", "", date_text)
             parts = re.split(r"\s*[~～–]\s*", date_text)
             if len(parts) >= 2:
                 start_date = parse_korean_date(parts[0])
@@ -104,23 +109,19 @@ class ContestKoreaScraper(BaseScraper):
             start_date = datetime.now().strftime("%Y-%m-%d")
 
         # 썸네일
-        img_tag = item.select_one("img")
+        img_tag = item.select_one("div.title img")
         thumbnail = ""
         if img_tag:
             thumbnail = img_tag.get("src", "")
             if thumbnail and not thumbnail.startswith("http"):
                 thumbnail = f"{self.BASE_URL}{thumbnail}"
 
-        # 설명
-        desc_tag = item.select_one(".desc, .info, p")
-        description = desc_tag.get_text(strip=True) if desc_tag else ""
-
-        category = self._categorize(title, description)
+        category = self._categorize(title)
 
         return ContestItem(
             id=contest_id,
             title=title,
-            description=description,
+            description="",
             organizer=organizer,
             deadline=deadline,
             startDate=start_date,
@@ -129,16 +130,16 @@ class ContestKoreaScraper(BaseScraper):
             thumbnailUrl=thumbnail,
             category=category,
             source=self.SOURCE_NAME,
-            tags=self._extract_tags(title, description),
+            tags=self._extract_tags(title),
             scrapedAt=datetime.now().isoformat(),
         )
 
-    def _extract_tags(self, title: str, description: str) -> list[str]:
+    def _extract_tags(self, title: str) -> list[str]:
         tags = []
-        text = title + " " + description
         keywords = ["AI", "인공지능", "웹", "앱", "데이터", "보안", "해커톤",
-                     "알고리즘", "오픈소스", "클라우드", "블록체인", "IoT", "로봇"]
+                     "알고리즘", "오픈소스", "클라우드", "블록체인", "IoT", "로봇",
+                     "SW", "IT", "코딩", "프로그래밍", "소프트웨어"]
         for kw in keywords:
-            if kw.lower() in text.lower():
+            if kw.lower() in title.lower():
                 tags.append(kw)
         return tags[:5]
