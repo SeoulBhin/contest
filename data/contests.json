@@ -1,0 +1,81 @@
+{
+  "lastUpdated": "2026-03-03T09:00:00+09:00",
+  "totalCount": 5,
+  "contests": [
+    {
+      "id": "linkareer-10001",
+      "title": "2026 삼성 SDS 알고리즘 대회",
+      "description": "삼성 SDS에서 주최하는 대학생 대상 알고리즘 프로그래밍 경진대회입니다. 예선은 온라인으로 진행되며, 본선은 삼성 SDS 캠퍼스에서 오프라인으로 개최됩니다.",
+      "organizer": "삼성 SDS",
+      "deadline": "2026-04-15",
+      "startDate": "2026-03-01",
+      "prize": "총 상금 5,000만원",
+      "url": "https://linkareer.com/activity/10001",
+      "thumbnailUrl": "",
+      "category": "algorithm",
+      "source": "linkareer",
+      "tags": ["알고리즘", "삼성", "대학생"],
+      "scrapedAt": "2026-03-03T09:00:00+09:00"
+    },
+    {
+      "id": "contestkorea-20001",
+      "title": "2026 공개SW 개발자대회",
+      "description": "과학기술정보통신부와 정보통신산업진흥원이 주최하는 공개 소프트웨어 개발자 대회입니다. 오픈소스를 활용한 창의적인 소프트웨어 개발을 장려합니다.",
+      "organizer": "과학기술정보통신부",
+      "deadline": "2026-05-31",
+      "startDate": "2026-03-15",
+      "prize": "총 상금 1억원",
+      "url": "https://www.contestkorea.com/sub/view.php?id=20001",
+      "thumbnailUrl": "",
+      "category": "sw_general",
+      "source": "contestkorea",
+      "tags": ["오픈소스", "공개SW", "정부"],
+      "scrapedAt": "2026-03-03T09:00:00+09:00"
+    },
+    {
+      "id": "thinkcontest-30001",
+      "title": "2026 AI 해커톤 챌린지",
+      "description": "인공지능 기술을 활용하여 사회 문제를 해결하는 해커톤입니다. 팀 단위로 참가하며, 48시간 동안 프로토타입을 개발합니다.",
+      "organizer": "한국정보화진흥원",
+      "deadline": "2026-04-30",
+      "startDate": "2026-04-01",
+      "prize": "총 상금 3,000만원",
+      "url": "https://www.thinkcontest.com/contest/view.php?id=30001",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "thinkcontest",
+      "tags": ["AI", "해커톤", "머신러닝"],
+      "scrapedAt": "2026-03-03T09:00:00+09:00"
+    },
+    {
+      "id": "linkareer-10002",
+      "title": "네이버 D2 웹 개발 챌린지",
+      "description": "네이버 D2에서 주최하는 웹 개발 챌린지입니다. React, Vue 등 프론트엔드 기술을 활용한 웹 애플리케이션을 개발합니다.",
+      "organizer": "네이버",
+      "deadline": "2026-03-20",
+      "startDate": "2026-02-15",
+      "prize": "총 상금 2,000만원",
+      "url": "https://linkareer.com/activity/10002",
+      "thumbnailUrl": "",
+      "category": "web_mobile",
+      "source": "linkareer",
+      "tags": ["웹개발", "프론트엔드", "네이버"],
+      "scrapedAt": "2026-03-03T09:00:00+09:00"
+    },
+    {
+      "id": "contestkorea-20002",
+      "title": "2025 보안 취약점 분석 대회",
+      "description": "사이버 보안 전문가를 발굴하기 위한 보안 취약점 분석 대회입니다. CTF 형식으로 진행됩니다.",
+      "organizer": "한국인터넷진흥원",
+      "deadline": "2026-02-28",
+      "startDate": "2025-12-01",
+      "prize": "총 상금 1,500만원",
+      "url": "https://www.contestkorea.com/sub/view.php?id=20002",
+      "thumbnailUrl": "",
+      "category": "security",
+      "source": "contestkorea",
+      "tags": ["보안", "CTF", "해킹방어"],
+      "scrapedAt": "2026-03-03T09:00:00+09:00"
+    }
+  ]
+}
