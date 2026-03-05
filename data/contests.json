@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-05T03:32:33.424486",
-  "totalCount": 24,
+  "lastUpdated": "2026-03-05T23:44:32.563170",
+  "totalCount": 25,
   "contests": [
     {
       "id": "dacon-236630",
@@ -20,7 +20,7 @@
         "유전자",
         "Cosine Distance"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421839",
+      "scrapedAt": "2026-03-05T23:44:32.560523",
       "status": "completed"
     },
     {
@@ -42,7 +42,7 @@
         "RAG",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421848",
+      "scrapedAt": "2026-03-05T23:44:32.560538",
       "status": "completed"
     },
     {
@@ -64,7 +64,7 @@
         "LLM",
         "RAG"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421830",
+      "scrapedAt": "2026-03-05T23:44:32.560509",
       "status": "completed"
     },
     {
@@ -86,7 +86,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421803",
+      "scrapedAt": "2026-03-05T23:44:32.560467",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421819",
+      "scrapedAt": "2026-03-05T23:44:32.560492",
       "status": "completed"
     },
     {
@@ -130,7 +130,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421790",
+      "scrapedAt": "2026-03-05T23:44:32.560438",
       "status": "completed"
     },
     {
@@ -152,7 +152,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421771",
+      "scrapedAt": "2026-03-05T23:44:32.560403",
       "status": "completed"
     },
     {
@@ -173,7 +173,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421759",
+      "scrapedAt": "2026-03-05T23:44:32.560386",
       "status": "completed"
     },
     {
@@ -194,7 +194,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421780",
+      "scrapedAt": "2026-03-05T23:44:32.560421",
       "status": "completed"
     },
     {
@@ -216,7 +216,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421739",
+      "scrapedAt": "2026-03-05T23:44:32.560367",
       "status": "completed"
     },
     {
@@ -234,7 +234,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-05T03:31:47.837153",
+      "scrapedAt": "2026-03-05T23:44:13.329931",
       "status": "active"
     },
     {
@@ -252,7 +252,25 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-05T03:31:47.835112",
+      "scrapedAt": "2026-03-05T23:44:13.327602",
+      "status": "active"
+    },
+    {
+      "id": "thinkcontest-102498",
+      "title": "[구름톤 in JEJU] 3박 4일 제주 해커톤 참가자 모집",
+      "description": "",
+      "organizer": "구름",
+      "deadline": "2026-03-17",
+      "startDate": "2026-03-04",
+      "prize": "",
+      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102498",
+      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/8ee6d28cc4e14e8896fcac9ab1d8e396.png",
+      "category": "hackathon",
+      "source": "thinkcontest",
+      "tags": [
+        "해커톤"
+      ],
+      "scrapedAt": "2026-03-05T23:44:17.079340",
       "status": "active"
     },
     {
@@ -264,11 +282,11 @@
       "startDate": "2026-03-02",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602260023",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.839017",
+      "scrapedAt": "2026-03-05T23:44:13.331573",
       "status": "active"
     },
     {
@@ -284,7 +302,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.836514",
+      "scrapedAt": "2026-03-05T23:44:13.329295",
       "status": "active"
     },
     {
@@ -306,7 +324,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-05T03:32:33.421716",
+      "scrapedAt": "2026-03-05T23:44:32.560343",
       "status": "active"
     },
     {
@@ -322,7 +340,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.835506",
+      "scrapedAt": "2026-03-05T23:44:13.328186",
       "status": "active"
     },
     {
@@ -338,7 +356,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.838308",
+      "scrapedAt": "2026-03-05T23:44:13.330907",
       "status": "active"
     },
     {
@@ -354,7 +372,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.838697",
+      "scrapedAt": "2026-03-05T23:44:13.331221",
       "status": "active"
     },
     {
@@ -370,7 +388,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.837501",
+      "scrapedAt": "2026-03-05T23:44:13.330257",
       "status": "active"
     },
     {
@@ -386,7 +404,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.835834",
+      "scrapedAt": "2026-03-05T23:44:13.328633",
       "status": "active"
     },
     {
@@ -402,7 +420,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.836148",
+      "scrapedAt": "2026-03-05T23:44:13.328961",
       "status": "active"
     },
     {
@@ -418,7 +436,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.836853",
+      "scrapedAt": "2026-03-05T23:44:13.329627",
       "status": "active"
     },
     {
@@ -436,7 +454,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-05T03:31:47.837810",
+      "scrapedAt": "2026-03-05T23:44:13.330590",
       "status": "active"
     },
     {
@@ -452,7 +470,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-05T03:31:47.839334",
+      "scrapedAt": "2026-03-05T23:44:13.331890",
       "status": "active"
     }
   ]
