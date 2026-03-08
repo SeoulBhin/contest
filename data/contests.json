@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T23:14:10.987120",
+  "lastUpdated": "2026-03-08T23:15:17.174562",
   "totalCount": 24,
   "contests": [
     {
@@ -20,7 +20,7 @@
         "유전자",
         "Cosine Distance"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984337",
+      "scrapedAt": "2026-03-08T23:15:17.171862",
       "status": "completed"
     },
     {
@@ -42,7 +42,7 @@
         "RAG",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984351",
+      "scrapedAt": "2026-03-08T23:15:17.171871",
       "status": "completed"
     },
     {
@@ -64,7 +64,7 @@
         "LLM",
         "RAG"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984325",
+      "scrapedAt": "2026-03-08T23:15:17.171853",
       "status": "completed"
     },
     {
@@ -86,7 +86,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984288",
+      "scrapedAt": "2026-03-08T23:15:17.171826",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984309",
+      "scrapedAt": "2026-03-08T23:15:17.171841",
       "status": "completed"
     },
     {
@@ -130,7 +130,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984276",
+      "scrapedAt": "2026-03-08T23:15:17.171817",
       "status": "completed"
     },
     {
@@ -152,7 +152,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984247",
+      "scrapedAt": "2026-03-08T23:15:17.171798",
       "status": "completed"
     },
     {
@@ -173,7 +173,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984230",
+      "scrapedAt": "2026-03-08T23:15:17.171786",
       "status": "completed"
     },
     {
@@ -194,7 +194,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984260",
+      "scrapedAt": "2026-03-08T23:15:17.171807",
       "status": "completed"
     },
     {
@@ -216,7 +216,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984202",
+      "scrapedAt": "2026-03-08T23:15:17.171766",
       "status": "completed"
     },
     {
@@ -234,7 +234,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-07T23:13:53.291235",
+      "scrapedAt": "2026-03-08T23:14:57.381633",
       "status": "active"
     },
     {
@@ -252,7 +252,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-07T23:13:53.289135",
+      "scrapedAt": "2026-03-08T23:14:57.379156",
       "status": "active"
     },
     {
@@ -268,7 +268,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.292927",
+      "scrapedAt": "2026-03-08T23:14:57.382965",
       "status": "active"
     },
     {
@@ -284,7 +284,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.290578",
+      "scrapedAt": "2026-03-08T23:14:57.380958",
       "status": "active"
     },
     {
@@ -306,7 +306,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-07T23:14:10.984151",
+      "scrapedAt": "2026-03-08T23:15:17.171736",
       "status": "active"
     },
     {
@@ -322,7 +322,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.289542",
+      "scrapedAt": "2026-03-08T23:14:57.379577",
       "status": "active"
     },
     {
@@ -338,7 +338,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.292264",
+      "scrapedAt": "2026-03-08T23:14:57.382288",
       "status": "active"
     },
     {
@@ -354,7 +354,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.292588",
+      "scrapedAt": "2026-03-08T23:14:57.382628",
       "status": "active"
     },
     {
@@ -370,7 +370,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.291575",
+      "scrapedAt": "2026-03-08T23:14:57.381290",
       "status": "active"
     },
     {
@@ -386,7 +386,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.289885",
+      "scrapedAt": "2026-03-08T23:14:57.379931",
       "status": "active"
     },
     {
@@ -402,7 +402,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.290247",
+      "scrapedAt": "2026-03-08T23:14:57.380267",
       "status": "active"
     },
     {
@@ -418,7 +418,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.290904",
+      "scrapedAt": "2026-03-08T23:14:57.380633",
       "status": "active"
     },
     {
@@ -436,7 +436,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-07T23:13:53.291892",
+      "scrapedAt": "2026-03-08T23:14:57.381950",
       "status": "active"
     },
     {
@@ -452,7 +452,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-07T23:13:53.293270",
+      "scrapedAt": "2026-03-08T23:14:57.383320",
       "status": "active"
     }
   ]
