@@ -1,50 +1,7 @@
 {
-  "lastUpdated": "2026-03-08T23:15:17.174562",
-  "totalCount": 24,
+  "lastUpdated": "2026-03-09T23:19:02.578440",
+  "totalCount": 22,
   "contests": [
-    {
-      "id": "dacon-236630",
-      "title": "제2회 Medical AI (MAI) 경진대회",
-      "description": "",
-      "organizer": "",
-      "deadline": "2025-12-08",
-      "startDate": "2025-11-10",
-      "prize": "1000만원",
-      "url": "https://dacon.io/competitions/official/236630/overview",
-      "thumbnailUrl": "",
-      "category": "algorithm",
-      "source": "dacon",
-      "tags": [
-        "알고리즘",
-        "의료",
-        "유전자",
-        "Cosine Distance"
-      ],
-      "scrapedAt": "2026-03-08T23:15:17.171862",
-      "status": "completed"
-    },
-    {
-      "id": "dacon-236652",
-      "title": "스마트 제조 AI Agent 해커톤 2025",
-      "description": "",
-      "organizer": "",
-      "deadline": "2025-12-08",
-      "startDate": "2025-12-02",
-      "prize": "125만원",
-      "url": "https://dacon.io/competitions/official/236652/overview",
-      "thumbnailUrl": "",
-      "category": "hackathon",
-      "source": "dacon",
-      "tags": [
-        "제조업",
-        "스마트 팩토리",
-        "LLM",
-        "RAG",
-        "AI Agent"
-      ],
-      "scrapedAt": "2026-03-08T23:15:17.171871",
-      "status": "completed"
-    },
     {
       "id": "dacon-236655",
       "title": "스마트 제조 AI Agent <본선> 해커톤 2025",
@@ -64,7 +21,7 @@
         "LLM",
         "RAG"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171853",
+      "scrapedAt": "2026-03-09T23:19:02.575617",
       "status": "completed"
     },
     {
@@ -86,7 +43,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171826",
+      "scrapedAt": "2026-03-09T23:19:02.575574",
       "status": "completed"
     },
     {
@@ -108,7 +65,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171841",
+      "scrapedAt": "2026-03-09T23:19:02.575599",
       "status": "completed"
     },
     {
@@ -130,7 +87,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171817",
+      "scrapedAt": "2026-03-09T23:19:02.575559",
       "status": "completed"
     },
     {
@@ -152,7 +109,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171798",
+      "scrapedAt": "2026-03-09T23:19:02.575507",
       "status": "completed"
     },
     {
@@ -173,7 +130,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171786",
+      "scrapedAt": "2026-03-09T23:19:02.575490",
       "status": "completed"
     },
     {
@@ -194,7 +151,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171807",
+      "scrapedAt": "2026-03-09T23:19:02.575521",
       "status": "completed"
     },
     {
@@ -216,7 +173,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171766",
+      "scrapedAt": "2026-03-09T23:19:02.575464",
       "status": "completed"
     },
     {
@@ -234,7 +191,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-08T23:14:57.381633",
+      "scrapedAt": "2026-03-09T23:18:44.841512",
       "status": "active"
     },
     {
@@ -252,23 +209,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-08T23:14:57.379156",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602260023",
-      "title": "2026 방콘진 혁신 방송 신기술 상용화 지원 공모 사업",
-      "description": "",
-      "organizer": "방송콘텐츠진흥재단",
-      "deadline": "2026-03-19",
-      "startDate": "2026-03-02",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602260023",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.382965",
+      "scrapedAt": "2026-03-09T23:18:44.838086",
       "status": "active"
     },
     {
@@ -284,7 +225,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.380958",
+      "scrapedAt": "2026-03-09T23:18:44.840874",
       "status": "active"
     },
     {
@@ -306,7 +247,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-08T23:15:17.171736",
+      "scrapedAt": "2026-03-09T23:19:02.575434",
       "status": "active"
     },
     {
@@ -322,7 +263,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.379577",
+      "scrapedAt": "2026-03-09T23:18:44.839488",
       "status": "active"
     },
     {
@@ -338,23 +279,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.382288",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602270031",
-      "title": "[충주학연구소] 충주학 연구 제6호 논문 모집(연구비 지원)",
-      "description": "",
-      "organizer": "충주문화원 부설 충주학연구소",
-      "deadline": "2026-04-10",
-      "startDate": "2026-02-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602270031",
-      "thumbnailUrl": "https://www.contestkorea.com/img/main/icon_tip.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.382628",
+      "scrapedAt": "2026-03-09T23:18:44.842159",
       "status": "active"
     },
     {
@@ -370,7 +295,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.381290",
+      "scrapedAt": "2026-03-09T23:18:44.841205",
       "status": "active"
     },
     {
@@ -386,7 +311,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.379931",
+      "scrapedAt": "2026-03-09T23:18:44.839871",
       "status": "active"
     },
     {
@@ -402,7 +327,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.380267",
+      "scrapedAt": "2026-03-09T23:18:44.840193",
       "status": "active"
     },
     {
@@ -418,7 +343,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.380633",
+      "scrapedAt": "2026-03-09T23:18:44.840542",
       "status": "active"
     },
     {
@@ -436,23 +361,55 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-08T23:14:57.381950",
+      "scrapedAt": "2026-03-09T23:18:44.841837",
       "status": "active"
     },
     {
-      "id": "contestkorea-202602250031",
-      "title": "2026년 제1회 소방안전분야 학술논문 공모전",
+      "id": "contestkorea-202603010005",
+      "title": "신용보증기금 창립 50주년 기념 논문공모전",
       "description": "",
-      "organizer": "한국소방안전원",
-      "deadline": "2026-05-29",
-      "startDate": "2026-04-01",
+      "organizer": "신용보증기금",
+      "deadline": "2026-05-01",
+      "startDate": "2026-03-03",
       "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602250031",
-      "thumbnailUrl": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603010005",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-08T23:14:57.383320",
+      "scrapedAt": "2026-03-09T23:18:44.839146",
+      "status": "active"
+    },
+    {
+      "id": "contestkorea-202603090071",
+      "title": "제16회 청소년 자원순환 리더십 프로젝트-[순환도전]공모전",
+      "description": "",
+      "organizer": "자원순환사회연대",
+      "deadline": "2026-05-10",
+      "startDate": "2026-03-09",
+      "prize": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603090071",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "category": "other",
+      "source": "contestkorea",
+      "tags": [],
+      "scrapedAt": "2026-03-09T23:18:44.838461",
+      "status": "active"
+    },
+    {
+      "id": "contestkorea-202603030039",
+      "title": "국민권익 분야 대표 정책 전문 학술지「권익」제3권 논문 공모",
+      "description": "",
+      "organizer": "국민권익위원회",
+      "deadline": "2026-05-29",
+      "startDate": "2026-03-03",
+      "prize": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030039",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "category": "other",
+      "source": "contestkorea",
+      "tags": [],
+      "scrapedAt": "2026-03-09T23:18:44.838814",
       "status": "active"
     }
   ]
