@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T23:19:02.578440",
+  "lastUpdated": "2026-03-10T23:19:13.171418",
   "totalCount": 22,
   "contests": [
     {
@@ -21,7 +21,7 @@
         "LLM",
         "RAG"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575617",
+      "scrapedAt": "2026-03-10T23:19:13.168756",
       "status": "completed"
     },
     {
@@ -43,7 +43,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575574",
+      "scrapedAt": "2026-03-10T23:19:13.168722",
       "status": "completed"
     },
     {
@@ -65,7 +65,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575599",
+      "scrapedAt": "2026-03-10T23:19:13.168745",
       "status": "completed"
     },
     {
@@ -87,7 +87,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575559",
+      "scrapedAt": "2026-03-10T23:19:13.168707",
       "status": "completed"
     },
     {
@@ -109,7 +109,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575507",
+      "scrapedAt": "2026-03-10T23:19:13.168675",
       "status": "completed"
     },
     {
@@ -130,7 +130,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575490",
+      "scrapedAt": "2026-03-10T23:19:13.168657",
       "status": "completed"
     },
     {
@@ -151,7 +151,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575521",
+      "scrapedAt": "2026-03-10T23:19:13.168690",
       "status": "completed"
     },
     {
@@ -173,7 +173,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575464",
+      "scrapedAt": "2026-03-10T23:19:13.168628",
       "status": "completed"
     },
     {
@@ -185,13 +185,13 @@
       "startDate": "2026-03-06",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602240034",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "ai_ml",
       "source": "contestkorea",
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-09T23:18:44.841512",
+      "scrapedAt": "2026-03-10T23:18:56.189544",
       "status": "active"
     },
     {
@@ -209,7 +209,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-09T23:18:44.838086",
+      "scrapedAt": "2026-03-10T23:18:56.185728",
       "status": "active"
     },
     {
@@ -221,11 +221,11 @@
       "startDate": "2026-01-27",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030001",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.840874",
+      "scrapedAt": "2026-03-10T23:18:56.188867",
       "status": "active"
     },
     {
@@ -247,7 +247,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-09T23:19:02.575434",
+      "scrapedAt": "2026-03-10T23:19:13.168594",
       "status": "active"
     },
     {
@@ -263,23 +263,23 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.839488",
+      "scrapedAt": "2026-03-10T23:18:56.187529",
       "status": "active"
     },
     {
-      "id": "contestkorea-202602270033",
-      "title": "[충주학연구소] 2026년 충주학 신진연구자 학술연구과제 공모",
+      "id": "contestkorea-202603100003",
+      "title": "유학네트 세계유학박람회",
       "description": "",
-      "organizer": "충주문화원 부설 충주학연구소",
-      "deadline": "2026-04-10",
-      "startDate": "2026-02-27",
+      "organizer": "유학네트",
+      "deadline": "2026-04-18",
+      "startDate": "2026-03-10",
       "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602270033",
-      "thumbnailUrl": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603100003",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.842159",
+      "scrapedAt": "2026-03-10T23:18:56.186132",
       "status": "active"
     },
     {
@@ -295,7 +295,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.841205",
+      "scrapedAt": "2026-03-10T23:18:56.189229",
       "status": "active"
     },
     {
@@ -311,7 +311,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.839871",
+      "scrapedAt": "2026-03-10T23:18:56.187852",
       "status": "active"
     },
     {
@@ -323,11 +323,11 @@
       "startDate": "2026-03-01",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030048",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.840193",
+      "scrapedAt": "2026-03-10T23:18:56.188215",
       "status": "active"
     },
     {
@@ -339,11 +339,11 @@
       "startDate": "2026-03-03",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030036",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "https://www.contestkorea.com/img/main/spc.gif",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.840542",
+      "scrapedAt": "2026-03-10T23:18:56.188537",
       "status": "active"
     },
     {
@@ -355,13 +355,13 @@
       "startDate": "2026-02-03",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602240001",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "ai_ml",
       "source": "contestkorea",
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-09T23:18:44.841837",
+      "scrapedAt": "2026-03-10T23:18:56.189903",
       "status": "active"
     },
     {
@@ -377,7 +377,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.839146",
+      "scrapedAt": "2026-03-10T23:18:56.187195",
       "status": "active"
     },
     {
@@ -393,7 +393,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.838461",
+      "scrapedAt": "2026-03-10T23:18:56.186483",
       "status": "active"
     },
     {
@@ -409,7 +409,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-09T23:18:44.838814",
+      "scrapedAt": "2026-03-10T23:18:56.186836",
       "status": "active"
     }
   ]
