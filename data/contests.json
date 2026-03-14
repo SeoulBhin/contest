@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T23:20:17.046271",
+  "lastUpdated": "2026-03-14T23:18:53.968391",
   "totalCount": 21,
   "contests": [
     {
@@ -21,7 +21,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043656",
+      "scrapedAt": "2026-03-14T23:18:53.965776",
       "status": "completed"
     },
     {
@@ -43,7 +43,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043673",
+      "scrapedAt": "2026-03-14T23:18:53.965792",
       "status": "completed"
     },
     {
@@ -65,7 +65,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043644",
+      "scrapedAt": "2026-03-14T23:18:53.965767",
       "status": "completed"
     },
     {
@@ -87,7 +87,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043607",
+      "scrapedAt": "2026-03-14T23:18:53.965747",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043588",
+      "scrapedAt": "2026-03-14T23:18:53.965735",
       "status": "completed"
     },
     {
@@ -129,7 +129,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043624",
+      "scrapedAt": "2026-03-14T23:18:53.965756",
       "status": "completed"
     },
     {
@@ -151,7 +151,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043561",
+      "scrapedAt": "2026-03-14T23:18:53.965712",
       "status": "completed"
     },
     {
@@ -167,7 +167,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.392921",
+      "scrapedAt": "2026-03-14T23:18:35.290417",
       "status": "active"
     },
     {
@@ -179,11 +179,11 @@
       "startDate": "2026-03-03",
       "prize": "",
       "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102895",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/8195c107bc694f009356109ff6193973.jpg",
+      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/6a3d4a2365e14e87b65c95fc7dd197b9.jpg",
       "category": "other",
       "source": "thinkcontest",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:41.781394",
+      "scrapedAt": "2026-03-14T23:18:39.216721",
       "status": "active"
     },
     {
@@ -199,7 +199,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.391865",
+      "scrapedAt": "2026-03-14T23:18:35.289413",
       "status": "active"
     },
     {
@@ -221,7 +221,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-13T23:20:17.043526",
+      "scrapedAt": "2026-03-14T23:18:53.965657",
       "status": "active"
     },
     {
@@ -239,7 +239,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-03-13T23:19:38.395246",
+      "scrapedAt": "2026-03-14T23:18:35.292671",
       "status": "active"
     },
     {
@@ -255,7 +255,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.393252",
+      "scrapedAt": "2026-03-14T23:18:35.290762",
       "status": "active"
     },
     {
@@ -271,7 +271,7 @@
       "category": "game",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.392204",
+      "scrapedAt": "2026-03-14T23:18:35.289769",
       "status": "active"
     },
     {
@@ -287,7 +287,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.393604",
+      "scrapedAt": "2026-03-14T23:18:35.291096",
       "status": "active"
     },
     {
@@ -303,7 +303,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.394619",
+      "scrapedAt": "2026-03-14T23:18:35.292064",
       "status": "active"
     },
     {
@@ -319,7 +319,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.393950",
+      "scrapedAt": "2026-03-14T23:18:35.291430",
       "status": "active"
     },
     {
@@ -335,7 +335,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.391456",
+      "scrapedAt": "2026-03-14T23:18:35.289032",
       "status": "active"
     },
     {
@@ -351,7 +351,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.394277",
+      "scrapedAt": "2026-03-14T23:18:35.291759",
       "status": "active"
     },
     {
@@ -367,7 +367,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.392570",
+      "scrapedAt": "2026-03-14T23:18:35.290092",
       "status": "active"
     },
     {
@@ -383,7 +383,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-13T23:19:38.394935",
+      "scrapedAt": "2026-03-14T23:18:35.292366",
       "status": "active"
     }
   ]
