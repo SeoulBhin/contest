@@ -18,17 +18,44 @@ class WevityScraper(BaseScraper):
         "?c=find&s=1&gub=1&cidx=22&mode=ing",  # 과학/공학
     ]
 
+    def _get_browser_headers(self) -> dict:
+        """Wevity 403 차단 우회를 위한 실제 브라우저 헤더"""
+        return {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Accept-Encoding": "gzip, deflate",
+            "Connection": "keep-alive",
+            "Referer": "https://www.wevity.com/",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+        }
+
     def scrape(self) -> list[ContestItem]:
         self.logger.info("Wevity 크롤링 시작")
         contests = []
         seen_ids = set()
 
+        session = requests.Session()
+        # 먼저 메인 페이지 방문하여 쿠키 획득
+        try:
+            session.get(
+                self.BASE_URL,
+                headers=self._get_browser_headers(),
+                timeout=15,
+            )
+        except Exception:
+            pass
+
         for params in self.CATEGORY_PARAMS:
             try:
                 url = f"{self.BASE_URL}/{params}"
-                response = requests.get(
+                response = session.get(
                     url,
-                    headers=self._get_headers(),
+                    headers=self._get_browser_headers(),
                     timeout=15,
                 )
                 response.raise_for_status()

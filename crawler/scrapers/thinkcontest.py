@@ -7,8 +7,23 @@ from .base import BaseScraper, ContestItem
 from ..utils.date_parser import parse_korean_date
 
 
-# IT/SW 관련 카테고리 키워드 (contest_field_nm에 부분 매칭)
-IT_KEYWORDS = ["게임", "소프트웨어", "과학"]
+# IT/SW 관련 카테고리 키워드 (contest_field_nm 필드에 매칭)
+IT_FIELD_KEYWORDS = [
+    "게임", "소프트웨어", "과학", "IT", "ICT", "SW", "AI",
+    "정보통신", "컴퓨터", "디지털", "프로그래밍", "코딩",
+    "인공지능", "빅데이터", "데이터", "전자", "기술", "테크",
+    "사이버", "로봇", "임베디드", "웹", "앱", "모바일",
+    "해커톤", "보안", "클라우드", "블록체인", "IoT",
+]
+
+# 제목 기반 IT/SW 키워드 (field_nm에 매칭되지 않을 때 제목으로 판별)
+IT_TITLE_KEYWORDS = [
+    "ai", "인공지능", "sw", "소프트웨어", "코딩", "프로그래밍",
+    "해커톤", "hackathon", "데이터", "블록체인", "ict", "it",
+    "앱", "웹", "개발", "알고리즘", "로봇", "디지털",
+    "메타버스", "클라우드", "사이버", "보안", "게임",
+    "iot", "빅데이터", "머신러닝", "딥러닝", "gpt", "llm",
+]
 
 
 class ThinkContestScraper(BaseScraper):
@@ -50,6 +65,10 @@ class ThinkContestScraper(BaseScraper):
                     contest = self._parse_api_item(item)
                     if contest:
                         contests.append(contest)
+                    else:
+                        field_nm = item.get("contest_field_nm", "")
+                        title = item.get("program_nm", "")
+                        self.logger.debug(f"ThinkContest 필터링됨: field='{field_nm}', title='{title}'")
                 except Exception as e:
                     self.logger.warning(f"ThinkContest 항목 파싱 실패: {e}")
 
@@ -60,9 +79,12 @@ class ThinkContestScraper(BaseScraper):
         return contests
 
     def _parse_api_item(self, item: dict) -> ContestItem | None:
-        # IT/SW 관련 카테고리만 필터링
+        # IT/SW 관련 필터링: 카테고리 필드 또는 제목 기반
         field_nm = item.get("contest_field_nm", "")
-        if not any(kw in field_nm for kw in IT_KEYWORDS):
+        title_raw = item.get("program_nm", "").strip()
+        field_match = any(kw in field_nm for kw in IT_FIELD_KEYWORDS)
+        title_match = any(kw in title_raw.lower() for kw in IT_TITLE_KEYWORDS)
+        if not field_match and not title_match:
             return None
 
         contest_pk = str(item.get("contest_pk", ""))

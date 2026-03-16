@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__filesystem__list_directory",
+      "mcp__filesystem__directory_tree",
+      "mcp__context7__query-docs",
+      "WebFetch(domain:www.linkareer.com)",
+      "WebFetch(domain:www.contestkorea.com)",
+      "WebFetch(domain:api.linkareer.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.thinkcontest.com)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_navigate",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "mcp__filesystem__read_text_file",
+      "WebFetch(domain:dacon.io)",
+      "Bash(curl:*)",
+      "mcp__playwright__browser_snapshot"
+    ]
+  }
+}

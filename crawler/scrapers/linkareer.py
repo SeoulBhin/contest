@@ -55,51 +55,59 @@ class LinkareerScraper(BaseScraper):
             )
             self._delay()
 
-            links = driver.find_elements(By.CSS_SELECTOR, "a[href*='/activity/']")
-            self.logger.info(f"Linkareer: {len(links)}개 링크 발견")
+            # 카드 컨테이너를 기준으로 탐색 (사이트 구조 변경에 유연하게 대응)
+            cards = driver.find_elements(By.CSS_SELECTOR, "a[href*='/activity/']")
+            self.logger.info(f"Linkareer: {len(cards)}개 링크 발견")
 
             seen = set()
-            for link in links:
+            for card in cards:
                 try:
-                    href = link.get_attribute("href") or ""
+                    href = card.get_attribute("href") or ""
                     id_match = re.search(r"/activity/(\d+)", href)
                     if not id_match:
                         continue
 
                     node_id = id_match.group(1)
+                    if node_id in seen:
+                        continue
 
-                    # 제목 추출 - h5 안의 텍스트 또는 링크 텍스트
+                    # 제목 추출 - 다양한 셀렉터 시도
                     title = ""
-                    try:
-                        h5 = link.find_element(By.TAG_NAME, "h5")
-                        title = h5.text.strip()
-                    except Exception:
-                        title = link.text.strip()
+                    for selector in ["h5", "h4", "h3", "h6", "[class*='title']", "[class*='Title']", "strong", "span"]:
+                        try:
+                            el = card.find_element(By.CSS_SELECTOR, selector)
+                            text = el.text.strip()
+                            if text and len(text) >= 3:
+                                title = text
+                                break
+                        except Exception:
+                            continue
+
+                    # 셀렉터로 못 찾으면 전체 텍스트에서 추출
+                    if not title:
+                        full_text = card.text.strip()
+                        # 여러 줄에서 가장 긴 줄을 제목으로 사용
+                        lines = [l.strip() for l in full_text.split("\n") if len(l.strip()) >= 3]
+                        if lines:
+                            title = max(lines, key=len)
 
                     # "추천" 프리픽스 제거
                     title = re.sub(r"^추천\s*", "", title)
 
                     if not title or len(title) < 3:
+                        self.logger.debug(f"Linkareer 제목 추출 실패: href={href}, text='{card.text.strip()[:50]}'")
                         continue
 
-                    # 제목이 있는 링크만 처리 (이미지 링크 스킵)
-                    if node_id in seen:
-                        continue
                     seen.add(node_id)
 
-                    # D-day 추출 시도 (형제 요소에서)
+                    # D-day 추출 시도
                     deadline = datetime.now().strftime("%Y-%m-%d")
                     organizer = ""
-                    try:
-                        card = link.find_element(By.XPATH, "./ancestor::div[contains(@class,'')]/../..")
-                        dday_el = card.find_element(By.XPATH, ".//*[starts-with(text(),'D-')]")
-                        dday_text = dday_el.text.strip()
-                        dday_match = re.search(r"D-(\d+)", dday_text)
-                        if dday_match:
-                            days = int(dday_match.group(1))
-                            deadline = (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d")
-                    except Exception:
-                        pass
+                    card_text = card.text
+                    dday_match = re.search(r"D-(\d+)", card_text)
+                    if dday_match:
+                        days = int(dday_match.group(1))
+                        deadline = (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d")
 
                     contests.append(
                         ContestItem(
