@@ -20,8 +20,18 @@ class LinkareerScraper(BaseScraper):
     SOURCE_NAME = "linkareer"
     BASE_URL = "https://linkareer.com"
 
-    # 과학/공학 카테고리 필터 적용
-    LIST_URL = "https://linkareer.com/list/contest?filterBy_categoryIDs=SCIENCE_ENGINEERING&filterBy_status=OPEN&orderBy_direction=DESC&orderBy_field=CREATED_AT"
+    # 접수중인 공모전 (카테고리 필터 없이 전체 조회 후 코드에서 IT 필터링)
+    LIST_URL = "https://linkareer.com/list/contest?filterBy_status=OPEN&orderBy_direction=DESC&orderBy_field=CREATED_AT"
+
+    # IT/SW 관련 키워드 필터
+    IT_KEYWORDS = [
+        "ai", "인공지능", "sw", "소프트웨어", "코딩", "프로그래밍",
+        "해커톤", "hackathon", "데이터", "블록체인", "ict", "it",
+        "앱", "웹", "개발", "알고리즘", "로봇", "디지털",
+        "메타버스", "클라우드", "사이버", "보안", "게임",
+        "iot", "빅데이터", "머신러닝", "딥러닝", "gpt", "llm",
+        "과학", "공학", "테크", "tech", "컴퓨터", "전자",
+    ]
 
     def scrape(self) -> list[ContestItem]:
         self.logger.info("Linkareer 크롤링 시작")
@@ -48,11 +58,15 @@ class LinkareerScraper(BaseScraper):
             driver = webdriver.Chrome(options=options)
             driver.get(self.LIST_URL)
 
-            WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "a[href*='/activity/']")
+            try:
+                WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "a[href*='/activity/']")
+                    )
                 )
-            )
+            except Exception:
+                self.logger.warning("Linkareer: 페이지 로딩 타임아웃 또는 결과 없음")
+                return []
             self._delay()
 
             # 카드 컨테이너를 기준으로 탐색 (사이트 구조 변경에 유연하게 대응)
@@ -98,11 +112,22 @@ class LinkareerScraper(BaseScraper):
                         self.logger.debug(f"Linkareer 제목 추출 실패: href={href}, text='{card.text.strip()[:50]}'")
                         continue
 
+                    # IT/SW 관련 키워드 필터링
+                    if not any(kw in title.lower() for kw in self.IT_KEYWORDS):
+                        continue
+
                     seen.add(node_id)
+
+                    # 주최사 추출 시도
+                    organizer = ""
+                    try:
+                        org_el = card.find_element(By.CSS_SELECTOR, "p[class*='organization']")
+                        organizer = org_el.text.strip()
+                    except Exception:
+                        pass
 
                     # D-day 추출 시도
                     deadline = datetime.now().strftime("%Y-%m-%d")
-                    organizer = ""
                     card_text = card.text
                     dday_match = re.search(r"D-(\d+)", card_text)
                     if dday_match:

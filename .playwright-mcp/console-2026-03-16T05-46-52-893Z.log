@@ -1,0 +1,3 @@
+[    8372ms] Identifier 'serviceWorkerVersion' has already been declared
+[   10837ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713

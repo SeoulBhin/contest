@@ -1,0 +1,9 @@
+[    8283ms] Identifier 'serviceWorkerVersion' has already been declared
+[   10880ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713
+[   11924ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713
+[   13495ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713
+[   16002ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713

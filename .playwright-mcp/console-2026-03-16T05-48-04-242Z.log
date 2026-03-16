@@ -1,0 +1,10 @@
+[    9652ms] [WARNING] Notifications permission has been blocked as the user has ignored the permission prompt several times. This can be reset in Page Info which can be accessed by clicking the tune icon next to the URL. See https://www.chromestatus.com/feature/6443143280984064 for more information. @ https://linkareer.com/list/contest:0
+[   17338ms] Identifier 'serviceWorkerVersion' has already been declared
+[   19826ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713
+[   20807ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713
+[   23842ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713
+[   25058ms] [WARNING] [Elastic APM] Failed sending events! AbortError: signal is aborted without reason
+    at https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:714:128643 @ https://linkareer.com/_next/static/chunks/pages/_app-30012bd681fab86f.js:713

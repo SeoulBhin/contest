@@ -1,10 +1,19 @@
-"""위비티 (wevity.com) 스크래퍼 - 서버 렌더링 HTML"""
+"""위비티 (wevity.com) 스크래퍼 - Selenium 사용 (Cloudflare 우회)"""
 
 import re
-import requests
-from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from .base import BaseScraper, ContestItem
+
+try:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+
+    HAS_SELENIUM = True
+except ImportError:
+    HAS_SELENIUM = False
 
 
 class WevityScraper(BaseScraper):
@@ -18,88 +27,89 @@ class WevityScraper(BaseScraper):
         "?c=find&s=1&gub=1&cidx=22&mode=ing",  # 과학/공학
     ]
 
-    def _get_browser_headers(self) -> dict:
-        """Wevity 403 차단 우회를 위한 실제 브라우저 헤더"""
-        return {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-            "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-            "Accept-Encoding": "gzip, deflate",
-            "Connection": "keep-alive",
-            "Referer": "https://www.wevity.com/",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "same-origin",
-            "Sec-Fetch-User": "?1",
-            "Upgrade-Insecure-Requests": "1",
-        }
-
     def scrape(self) -> list[ContestItem]:
         self.logger.info("Wevity 크롤링 시작")
+
+        if not HAS_SELENIUM:
+            self.logger.error("Selenium이 설치되지 않았습니다")
+            return []
+
         contests = []
         seen_ids = set()
+        driver = None
 
-        session = requests.Session()
-        # 먼저 메인 페이지 방문하여 쿠키 획득
         try:
-            session.get(
-                self.BASE_URL,
-                headers=self._get_browser_headers(),
-                timeout=15,
-            )
-        except Exception:
-            pass
+            options = Options()
+            options.add_argument("--headless=new")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--disable-gpu")
+            options.add_argument(f"user-agent={self._get_headers()['User-Agent']}")
 
-        for params in self.CATEGORY_PARAMS:
-            try:
-                url = f"{self.BASE_URL}/{params}"
-                response = session.get(
-                    url,
-                    headers=self._get_browser_headers(),
-                    timeout=15,
-                )
-                response.raise_for_status()
-                response.encoding = "utf-8"
-                soup = BeautifulSoup(response.text, "lxml")
+            driver = webdriver.Chrome(options=options)
 
-                items = soup.select("ul.list > li")
-                self.logger.info(f"Wevity ({params}): {len(items)}개 항목 발견")
+            for params in self.CATEGORY_PARAMS:
+                try:
+                    url = f"{self.BASE_URL}/{params}"
+                    driver.get(url)
 
-                for item in items:
                     try:
-                        contest = self._parse_item(item)
-                        if contest and contest.id not in seen_ids:
-                            seen_ids.add(contest.id)
-                            contests.append(contest)
-                    except Exception as e:
-                        self.logger.warning(f"Wevity 항목 파싱 실패: {e}")
+                        WebDriverWait(driver, 15).until(
+                            EC.presence_of_element_located(
+                                (By.CSS_SELECTOR, "ul.list > li")
+                            )
+                        )
+                    except Exception:
+                        self.logger.warning(f"Wevity ({params}): 항목 로딩 실패 또는 결과 없음")
                         continue
 
-                self._delay()
+                    self._delay()
 
-            except Exception as e:
-                self.logger.error(f"Wevity 카테고리 크롤링 실패 ({params}): {e}")
+                    items = driver.find_elements(By.CSS_SELECTOR, "ul.list > li")
+                    self.logger.info(f"Wevity ({params}): {len(items)}개 항목 발견")
+
+                    for item in items:
+                        try:
+                            contest = self._parse_item(item)
+                            if contest and contest.id not in seen_ids:
+                                seen_ids.add(contest.id)
+                                contests.append(contest)
+                        except Exception as e:
+                            self.logger.warning(f"Wevity 항목 파싱 실패: {e}")
+                            continue
+
+                except Exception as e:
+                    self.logger.error(f"Wevity 카테고리 크롤링 실패 ({params}): {e}")
+
+        except Exception as e:
+            self.logger.error(f"Wevity 크롤링 실패: {e}")
+        finally:
+            if driver:
+                driver.quit()
 
         self.logger.info(f"Wevity: {len(contests)}개 수집 완료")
         return contests
 
-    def _parse_item(self, item: BeautifulSoup) -> ContestItem | None:
+    def _parse_item(self, item) -> ContestItem | None:
         # 제목 링크 찾기
-        tit_div = item.select_one("div.tit")
-        if not tit_div:
+        try:
+            tit_div = item.find_element(By.CSS_SELECTOR, "div.tit")
+        except Exception:
             return None
 
-        link_tag = tit_div.select_one("a")
-        if not link_tag:
+        try:
+            link_tag = tit_div.find_element(By.CSS_SELECTOR, "a")
+        except Exception:
             return None
 
-        href = link_tag.get("href", "")
-        title = link_tag.get_text(strip=True)
+        href = link_tag.get_attribute("href") or ""
+        title = link_tag.text.strip()
+
+        # 배지 텍스트 제거
+        title = re.sub(r"\b(신규|NEW|IDEA|SPECIAL)\b", "", title).strip()
+
         if not title or not href:
             return None
-
-        # "신규", "IDEA" 등 배지 텍스트 제거
-        title = re.sub(r"\b(신규|NEW|IDEA)\b", "", title).strip()
 
         # ID 추출 (ix 파라미터)
         ix_match = re.search(r"ix=(\d+)", href)
@@ -110,15 +120,20 @@ class WevityScraper(BaseScraper):
         url = f"{self.BASE_URL}/{href}" if not href.startswith("http") else href
 
         # 주최사
-        organ_div = item.select_one("div.organ")
-        organizer = organ_div.get_text(strip=True) if organ_div else ""
+        organizer = ""
+        try:
+            organ_div = item.find_element(By.CSS_SELECTOR, "div.organ")
+            organizer = organ_div.text.strip()
+        except Exception:
+            pass
 
         # D-day에서 마감일 계산
-        day_div = item.select_one("div.day")
-        if not day_div:
+        try:
+            day_div = item.find_element(By.CSS_SELECTOR, "div.day")
+        except Exception:
             return None
 
-        day_text = day_div.get_text(strip=True)
+        day_text = day_div.text.strip()
 
         # D+N (이미 마감)은 스킵
         if "D+" in day_text:
