@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16T05:56:56.491185",
+  "lastUpdated": "2026-03-16T06:11:01.162767",
   "totalCount": 29,
   "contests": [
     {
@@ -21,7 +21,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488531",
+      "scrapedAt": "2026-03-16T06:11:01.160314",
       "status": "completed"
     },
     {
@@ -43,7 +43,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488551",
+      "scrapedAt": "2026-03-16T06:11:01.160329",
       "status": "completed"
     },
     {
@@ -65,7 +65,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488517",
+      "scrapedAt": "2026-03-16T06:11:01.160306",
       "status": "completed"
     },
     {
@@ -87,7 +87,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488490",
+      "scrapedAt": "2026-03-16T06:11:01.160280",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488475",
+      "scrapedAt": "2026-03-16T06:11:01.160261",
       "status": "completed"
     },
     {
@@ -129,7 +129,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488502",
+      "scrapedAt": "2026-03-16T06:11:01.160295",
       "status": "completed"
     },
     {
@@ -151,7 +151,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488453",
+      "scrapedAt": "2026-03-16T06:11:01.160234",
       "status": "completed"
     },
     {
@@ -169,7 +169,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-16T05:56:15.805491",
+      "scrapedAt": "2026-03-16T06:10:20.557744",
       "status": "active"
     },
     {
@@ -187,7 +187,7 @@
       "tags": [
         "SW"
       ],
-      "scrapedAt": "2026-03-16T05:56:16.072647",
+      "scrapedAt": "2026-03-16T06:10:20.897547",
       "status": "active"
     },
     {
@@ -205,7 +205,7 @@
       "tags": [
         "IT"
       ],
-      "scrapedAt": "2026-03-16T05:56:16.168495",
+      "scrapedAt": "2026-03-16T06:10:21.020806",
       "status": "active"
     },
     {
@@ -223,7 +223,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-16T05:56:16.594102",
+      "scrapedAt": "2026-03-16T06:10:21.578823",
       "status": "active"
     },
     {
@@ -239,7 +239,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.376592",
+      "scrapedAt": "2026-03-16T06:09:59.783743",
       "status": "active"
     },
     {
@@ -255,7 +255,7 @@
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:23.807215",
+      "scrapedAt": "2026-03-16T06:10:28.619353",
       "status": "active"
     },
     {
@@ -271,7 +271,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.375705",
+      "scrapedAt": "2026-03-16T06:09:59.782725",
       "status": "active"
     },
     {
@@ -293,7 +293,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-16T05:56:56.488425",
+      "scrapedAt": "2026-03-16T06:11:01.160208",
       "status": "active"
     },
     {
@@ -309,25 +309,7 @@
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:23.931143",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603050072",
-      "title": "제4회 전남교육종단데이터 학술대회 논문 공모",
-      "description": "",
-      "organizer": "전라남도교육청",
-      "deadline": "2026-04-02",
-      "startDate": "2026-03-03",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603050072",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "data",
-      "source": "contestkorea",
-      "tags": [
-        "데이터"
-      ],
-      "scrapedAt": "2026-03-16T05:56:07.378644",
+      "scrapedAt": "2026-03-16T06:10:28.750677",
       "status": "active"
     },
     {
@@ -343,7 +325,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.376898",
+      "scrapedAt": "2026-03-16T06:09:59.784098",
       "status": "active"
     },
     {
@@ -359,7 +341,7 @@
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:23.763373",
+      "scrapedAt": "2026-03-16T06:10:28.574396",
       "status": "active"
     },
     {
@@ -375,7 +357,7 @@
       "category": "game",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.376003",
+      "scrapedAt": "2026-03-16T06:09:59.783086",
       "status": "active"
     },
     {
@@ -394,7 +376,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-03-16T05:56:23.891895",
+      "scrapedAt": "2026-03-16T06:10:28.708666",
       "status": "active"
     },
     {
@@ -410,7 +392,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.377191",
+      "scrapedAt": "2026-03-16T06:09:59.784437",
       "status": "active"
     },
     {
@@ -426,7 +408,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.378082",
+      "scrapedAt": "2026-03-16T06:09:59.785415",
       "status": "active"
     },
     {
@@ -442,7 +424,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.377511",
+      "scrapedAt": "2026-03-16T06:09:59.784762",
       "status": "active"
     },
     {
@@ -461,7 +443,7 @@
         "데이터",
         "과학"
       ],
-      "scrapedAt": "2026-03-16T05:56:23.850955",
+      "scrapedAt": "2026-03-16T06:10:28.664467",
       "status": "active"
     },
     {
@@ -477,7 +459,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.375326",
+      "scrapedAt": "2026-03-16T06:09:59.782370",
       "status": "active"
     },
     {
@@ -493,7 +475,23 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.377806",
+      "scrapedAt": "2026-03-16T06:09:59.785093",
+      "status": "active"
+    },
+    {
+      "id": "contestkorea-202603120012",
+      "title": "2026 제22회 코리아타임스 경제 에세이 대회",
+      "description": "",
+      "organizer": "Koreatimes",
+      "deadline": "2026-05-31",
+      "startDate": "2026-03-12",
+      "prize": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603120012",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "category": "other",
+      "source": "contestkorea",
+      "tags": [],
+      "scrapedAt": "2026-03-16T06:09:59.782011",
       "status": "active"
     },
     {
@@ -509,7 +507,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.376296",
+      "scrapedAt": "2026-03-16T06:09:59.783406",
       "status": "active"
     },
     {
@@ -525,7 +523,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:56:07.378356",
+      "scrapedAt": "2026-03-16T06:09:59.785733",
       "status": "active"
     }
   ]
