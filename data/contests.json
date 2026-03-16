@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-16T05:44:57.153781",
-  "totalCount": 20,
+  "lastUpdated": "2026-03-16T05:56:56.491185",
+  "totalCount": 29,
   "contests": [
     {
       "id": "dacon-236647",
@@ -21,7 +21,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151237",
+      "scrapedAt": "2026-03-16T05:56:56.488531",
       "status": "completed"
     },
     {
@@ -43,7 +43,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151257",
+      "scrapedAt": "2026-03-16T05:56:56.488551",
       "status": "completed"
     },
     {
@@ -65,7 +65,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151222",
+      "scrapedAt": "2026-03-16T05:56:56.488517",
       "status": "completed"
     },
     {
@@ -87,7 +87,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151189",
+      "scrapedAt": "2026-03-16T05:56:56.488490",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151171",
+      "scrapedAt": "2026-03-16T05:56:56.488475",
       "status": "completed"
     },
     {
@@ -129,7 +129,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151204",
+      "scrapedAt": "2026-03-16T05:56:56.488502",
       "status": "completed"
     },
     {
@@ -151,8 +151,80 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151143",
+      "scrapedAt": "2026-03-16T05:56:56.488453",
       "status": "completed"
+    },
+    {
+      "id": "linkareer-308571",
+      "title": "Deutsch Motors MINI와 함께하는 AI로 만드는 MINI 전기차 배지 디자인 공모전",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-03-16",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://linkareer.com/activity/308571",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "linkareer",
+      "tags": [
+        "AI"
+      ],
+      "scrapedAt": "2026-03-16T05:56:15.805491",
+      "status": "active"
+    },
+    {
+      "id": "linkareer-308410",
+      "title": "2026 SW중심대학 에세이 공모전",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-03-16",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://linkareer.com/activity/308410",
+      "thumbnailUrl": "",
+      "category": "sw_general",
+      "source": "linkareer",
+      "tags": [
+        "SW"
+      ],
+      "scrapedAt": "2026-03-16T05:56:16.072647",
+      "status": "active"
+    },
+    {
+      "id": "linkareer-308384",
+      "title": "2026 영스타즈 경진대회 (Young Stars MAD Competition 2026) 참가자 모집",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-03-16",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://linkareer.com/activity/308384",
+      "thumbnailUrl": "",
+      "category": "other",
+      "source": "linkareer",
+      "tags": [
+        "IT"
+      ],
+      "scrapedAt": "2026-03-16T05:56:16.168495",
+      "status": "active"
+    },
+    {
+      "id": "linkareer-308294",
+      "title": "인천공항 AI-PORT 아이디어 공모전",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-03-16",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://linkareer.com/activity/308294",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "linkareer",
+      "tags": [
+        "AI"
+      ],
+      "scrapedAt": "2026-03-16T05:56:16.594102",
+      "status": "active"
     },
     {
       "id": "contestkorea-202603110059",
@@ -167,7 +239,23 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.628930",
+      "scrapedAt": "2026-03-16T05:56:07.376592",
+      "status": "active"
+    },
+    {
+      "id": "wevity-105622",
+      "title": "LG전자 앰버서더 4기 모집",
+      "description": "",
+      "organizer": "LG전자",
+      "deadline": "2026-03-24",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105622",
+      "thumbnailUrl": "",
+      "category": "other",
+      "source": "wevity",
+      "tags": [],
+      "scrapedAt": "2026-03-16T05:56:23.807215",
       "status": "active"
     },
     {
@@ -183,7 +271,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.627925",
+      "scrapedAt": "2026-03-16T05:56:07.375705",
       "status": "active"
     },
     {
@@ -205,7 +293,23 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-16T05:44:57.151113",
+      "scrapedAt": "2026-03-16T05:56:56.488425",
+      "status": "active"
+    },
+    {
+      "id": "wevity-104744",
+      "title": "2026 ICT 융합 프로젝트 공모전",
+      "description": "",
+      "organizer": "(주)엔티렉스",
+      "deadline": "2026-03-31",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=104744",
+      "thumbnailUrl": "",
+      "category": "other",
+      "source": "wevity",
+      "tags": [],
+      "scrapedAt": "2026-03-16T05:56:23.931143",
       "status": "active"
     },
     {
@@ -223,7 +327,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-03-16T05:44:34.631218",
+      "scrapedAt": "2026-03-16T05:56:07.378644",
       "status": "active"
     },
     {
@@ -239,7 +343,23 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.629312",
+      "scrapedAt": "2026-03-16T05:56:07.376898",
+      "status": "active"
+    },
+    {
+      "id": "wevity-105706",
+      "title": "[하나금융그룹] 하나 청년 금융인재 양성 프로젝트 참가자 모집",
+      "description": "",
+      "organizer": "하나금융그룹",
+      "deadline": "2026-04-06",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105706",
+      "thumbnailUrl": "",
+      "category": "other",
+      "source": "wevity",
+      "tags": [],
+      "scrapedAt": "2026-03-16T05:56:23.763373",
       "status": "active"
     },
     {
@@ -255,7 +375,26 @@
       "category": "game",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.628277",
+      "scrapedAt": "2026-03-16T05:56:07.376003",
+      "status": "active"
+    },
+    {
+      "id": "wevity-105614",
+      "title": "제8회 교육 공공데이터 AI활용대회",
+      "description": "",
+      "organizer": "교육부, 17개 시도교육청",
+      "deadline": "2026-04-15",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105614",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "wevity",
+      "tags": [
+        "AI",
+        "데이터"
+      ],
+      "scrapedAt": "2026-03-16T05:56:23.891895",
       "status": "active"
     },
     {
@@ -271,7 +410,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.629631",
+      "scrapedAt": "2026-03-16T05:56:07.377191",
       "status": "active"
     },
     {
@@ -287,7 +426,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.630598",
+      "scrapedAt": "2026-03-16T05:56:07.378082",
       "status": "active"
     },
     {
@@ -303,7 +442,26 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.629988",
+      "scrapedAt": "2026-03-16T05:56:07.377511",
+      "status": "active"
+    },
+    {
+      "id": "wevity-105751",
+      "title": "한국데이터정보과학회 & SAS KOREA 제2회 데이터 분석 경진대회",
+      "description": "",
+      "organizer": "한국데이터정보과학회",
+      "deadline": "2026-05-16",
+      "startDate": "2026-03-16",
+      "prize": "",
+      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105751",
+      "thumbnailUrl": "",
+      "category": "data",
+      "source": "wevity",
+      "tags": [
+        "데이터",
+        "과학"
+      ],
+      "scrapedAt": "2026-03-16T05:56:23.850955",
       "status": "active"
     },
     {
@@ -319,7 +477,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.627555",
+      "scrapedAt": "2026-03-16T05:56:07.375326",
       "status": "active"
     },
     {
@@ -335,7 +493,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.630298",
+      "scrapedAt": "2026-03-16T05:56:07.377806",
       "status": "active"
     },
     {
@@ -351,7 +509,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.628601",
+      "scrapedAt": "2026-03-16T05:56:07.376296",
       "status": "active"
     },
     {
@@ -367,7 +525,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-16T05:44:34.630901",
+      "scrapedAt": "2026-03-16T05:56:07.378356",
       "status": "active"
     }
   ]
