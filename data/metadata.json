@@ -1,53 +1,28 @@
 {
-<<<<<<< Updated upstream
-  "lastCrawl": "2026-03-15T23:19:36.124148",
+  "lastCrawl": "2026-03-16T05:44:32.656070",
   "sources": {
     "contestkorea": {
-      "lastSuccess": "2026-03-15T23:19:38.339763",
+      "lastSuccess": "2026-03-16T05:44:34.632377",
       "count": 12,
       "errors": []
     },
     "thinkcontest": {
-      "lastSuccess": "2026-03-15T23:19:42.145192",
-      "count": 1,
-      "errors": []
-    },
-    "linkareer": {
-      "lastSuccess": "2026-03-15T23:20:03.424402",
-=======
-  "lastCrawl": "2026-03-09T19:14:46.068547",
-  "sources": {
-    "contestkorea": {
-      "lastSuccess": "2026-03-09T19:14:47.526940",
-      "count": 13,
-      "errors": []
-    },
-    "thinkcontest": {
-      "lastSuccess": "2026-03-09T19:14:48.700848",
+      "lastSuccess": "2026-03-16T05:44:37.580195",
       "count": 0,
       "errors": []
     },
     "linkareer": {
-      "lastSuccess": "2026-03-09T19:14:48.700994",
->>>>>>> Stashed changes
+      "lastSuccess": "2026-03-16T05:44:55.676624",
       "count": 0,
       "errors": []
     },
     "wevity": {
-<<<<<<< Updated upstream
-      "lastSuccess": "2026-03-15T23:20:03.709772",
-=======
-      "lastSuccess": "2026-03-09T19:15:00.950325",
->>>>>>> Stashed changes
+      "lastSuccess": "2026-03-16T05:44:55.891652",
       "count": 0,
       "errors": []
     },
     "dacon": {
-<<<<<<< Updated upstream
-      "lastSuccess": "2026-03-15T23:20:05.323229",
-=======
-      "lastSuccess": "2026-03-09T19:15:02.812134",
->>>>>>> Stashed changes
+      "lastSuccess": "2026-03-16T05:44:57.152426",
       "count": 15,
       "errors": []
     }

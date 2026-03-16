@@ -1,37 +1,8 @@
 {
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-03-15T23:20:05.325247",
-  "totalCount": 21,
+  "lastUpdated": "2026-03-16T05:44:57.153781",
+  "totalCount": 20,
   "contests": [
     {
-=======
-  "lastUpdated": "2026-03-09T19:15:02.813004",
-  "totalCount": 22,
-  "contests": [
-    {
-      "id": "dacon-236655",
-      "title": "스마트 제조 AI Agent <본선> 해커톤 2025",
-      "description": "",
-      "organizer": "",
-      "deadline": "2025-12-11",
-      "startDate": "2025-12-11",
-      "prize": "125만원",
-      "url": "https://dacon.io/competitions/official/236655/overview",
-      "thumbnailUrl": "",
-      "category": "hackathon",
-      "source": "dacon",
-      "tags": [
-        "본선",
-        "제조업",
-        "스마트 팩토리",
-        "LLM",
-        "RAG"
-      ],
-      "scrapedAt": "2026-03-09T19:15:02.810989",
-      "status": "completed"
-    },
-    {
->>>>>>> Stashed changes
       "id": "dacon-236647",
       "title": "Track1 알고리즘 부문 : K리그-서울시립대 공개 AI 경진대회",
       "description": "",
@@ -50,11 +21,7 @@
         "시계열",
         "유클리드 거리"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321952",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810961",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151237",
       "status": "completed"
     },
     {
@@ -76,11 +43,7 @@
         "개발",
         "MVP"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321975",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810981",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151257",
       "status": "completed"
     },
     {
@@ -102,11 +65,7 @@
         "LLM",
         "AI Agent"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321939",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810948",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151222",
       "status": "completed"
     },
     {
@@ -128,11 +87,7 @@
         "비전",
         "딥페이크"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321910",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810929",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151189",
       "status": "completed"
     },
     {
@@ -153,11 +108,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321893",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810914",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151171",
       "status": "completed"
     },
     {
@@ -178,11 +129,7 @@
         "정형",
         "F1 Score"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321922",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810938",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151204",
       "status": "completed"
     },
     {
@@ -204,11 +151,7 @@
         "LLM",
         "코드제출"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321868",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810894",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151143",
       "status": "completed"
     },
     {
@@ -219,69 +162,12 @@
       "deadline": "2026-03-20",
       "startDate": "2026-02-13",
       "prize": "",
-<<<<<<< Updated upstream
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603110059",
-=======
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602240034",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "ai_ml",
-      "source": "contestkorea",
-      "tags": [
-        "AI"
-      ],
-      "scrapedAt": "2026-03-09T19:14:47.524578",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602060058",
-      "title": "2026 제6회 청소년 IT경시대회",
-      "description": "",
-      "organizer": "한국정보기술진흥원",
-      "deadline": "2026-03-11",
-      "startDate": "2026-02-16",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub//sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602060058",
-      "thumbnailUrl": "https://www.contestkorea.com/img/main/icon_tip.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [
-        "IT"
-      ],
-      "scrapedAt": "2026-03-09T19:14:47.522209",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603030001",
-      "title": "한미 첨단분야 청년교류 지원사업 제5기 장학생 선발 공고",
-      "description": "",
-      "organizer": "산업통상부",
-      "deadline": "2026-03-25",
-      "startDate": "2026-01-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030001",
->>>>>>> Stashed changes
       "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:19:38.336803",
-      "status": "active"
-    },
-    {
-      "id": "thinkcontest-102895",
-      "title": "2026 Esri Map Contest",
-      "description": "",
-      "organizer": "한국에스리",
-      "deadline": "2026-03-20",
-      "startDate": "2026-03-03",
-      "prize": "",
-      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=102895",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/6a3d4a2365e14e87b65c95fc7dd197b9.jpg",
-      "category": "other",
-      "source": "thinkcontest",
-      "tags": [],
-      "scrapedAt": "2026-03-15T23:19:42.144193",
+      "scrapedAt": "2026-03-16T05:44:34.628930",
       "status": "active"
     },
     {
@@ -297,10 +183,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.335942",
-=======
-      "scrapedAt": "2026-03-09T19:14:47.523860",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:34.627925",
       "status": "active"
     },
     {
@@ -322,151 +205,25 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:20:05.321837",
-=======
-      "scrapedAt": "2026-03-09T19:15:02.810862",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:57.151113",
       "status": "active"
     },
     {
       "id": "contestkorea-202603050072",
       "title": "제4회 전남교육종단데이터 학술대회 논문 공모",
       "description": "",
-<<<<<<< Updated upstream
       "organizer": "전라남도교육청",
       "deadline": "2026-04-02",
-=======
-      "organizer": "국방부 외 5개 정부 부처",
-      "deadline": "2026-03-31",
-      "startDate": "2026-03-04",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603040020",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.522946",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602270033",
-      "title": "[충주학연구소] 2026년 충주학 신진연구자 학술연구과제 공모",
-      "description": "",
-      "organizer": "충주문화원 부설 충주학연구소",
-      "deadline": "2026-04-10",
-      "startDate": "2026-02-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602270033",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.525358",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602270031",
-      "title": "[충주학연구소] 충주학 연구 제6호 논문 모집(연구비 지원)",
-      "description": "",
-      "organizer": "충주문화원 부설 충주학연구소",
-      "deadline": "2026-04-10",
-      "startDate": "2026-02-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602270031",
-      "thumbnailUrl": "https://www.contestkorea.com/img/main/icon_tip.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.525662",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602280014",
-      "title": "청소년 국제 평화 포럼 에세이 공모전",
-      "description": "",
-      "organizer": "동백 프로젝트",
-      "deadline": "2026-04-18",
-      "startDate": "2026-03-23",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602280014",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.524219",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603040003",
-      "title": "2026년 대한민국 학생창의력 챔피언대회",
-      "description": "",
-      "organizer": "지식재산처",
-      "deadline": "2026-04-22",
-      "startDate": "2026-03-06",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603040003",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.523188",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603030048",
-      "title": "[초록우산] 동광 제121권 제1호 투고 논문 모집",
-      "description": "",
-      "organizer": "초록우산",
-      "deadline": "2026-04-30",
-      "startDate": "2026-03-01",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603030048",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.523411",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603030036",
-      "title": "2026 엔지니어링산업 경진대회",
-      "description": "",
-      "organizer": "산업통상부",
-      "deadline": "2026-04-30",
->>>>>>> Stashed changes
       "startDate": "2026-03-03",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603050072",
       "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-<<<<<<< Updated upstream
       "category": "data",
-=======
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-09T19:14:47.523639",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202602240001",
-      "title": "퀄컴 AI 이노베이터 프로그램 (QAIPI) 2026-APAC",
-      "description": "",
-      "organizer": "퀄컴코리아",
-      "deadline": "2026-04-30",
-      "startDate": "2026-02-03",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202602240001",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
-      "category": "ai_ml",
->>>>>>> Stashed changes
       "source": "contestkorea",
       "tags": [
         "데이터"
       ],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:19:38.338791",
+      "scrapedAt": "2026-03-16T05:44:34.631218",
       "status": "active"
     },
     {
@@ -478,26 +235,11 @@
       "startDate": "2026-03-09",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603110004",
-=======
-      "scrapedAt": "2026-03-09T19:14:47.524936",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202603010005",
-      "title": "신용보증기금 창립 50주년 기념 논문공모전",
-      "description": "",
-      "organizer": "신용보증기금",
-      "deadline": "2026-05-01",
-      "startDate": "2026-03-03",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603010005",
->>>>>>> Stashed changes
       "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:19:38.337094",
+      "scrapedAt": "2026-03-16T05:44:34.629312",
       "status": "active"
     },
     {
@@ -513,7 +255,7 @@
       "category": "game",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.336226",
+      "scrapedAt": "2026-03-16T05:44:34.628277",
       "status": "active"
     },
     {
@@ -529,7 +271,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.337377",
+      "scrapedAt": "2026-03-16T05:44:34.629631",
       "status": "active"
     },
     {
@@ -545,7 +287,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.338237",
+      "scrapedAt": "2026-03-16T05:44:34.630598",
       "status": "active"
     },
     {
@@ -561,7 +303,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.337668",
+      "scrapedAt": "2026-03-16T05:44:34.629988",
       "status": "active"
     },
     {
@@ -577,10 +319,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.335590",
-=======
-      "scrapedAt": "2026-03-09T19:14:47.522702",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:34.627555",
       "status": "active"
     },
     {
@@ -596,8 +335,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-<<<<<<< Updated upstream
-      "scrapedAt": "2026-03-15T23:19:38.337964",
+      "scrapedAt": "2026-03-16T05:44:34.630298",
       "status": "active"
     },
     {
@@ -613,7 +351,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.336507",
+      "scrapedAt": "2026-03-16T05:44:34.628601",
       "status": "active"
     },
     {
@@ -629,10 +367,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-15T23:19:38.338506",
-=======
-      "scrapedAt": "2026-03-09T19:14:47.522472",
->>>>>>> Stashed changes
+      "scrapedAt": "2026-03-16T05:44:34.630901",
       "status": "active"
     }
   ]
