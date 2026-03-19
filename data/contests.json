@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-18T23:23:39.940453",
-  "totalCount": 28,
+  "lastUpdated": "2026-03-19T23:21:52.864867",
+  "totalCount": 25,
   "contests": [
     {
       "id": "dacon-236647",
@@ -21,7 +21,7 @@
         "시계열",
         "유클리드 거리"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937719",
+      "scrapedAt": "2026-03-19T23:21:52.862131",
       "status": "completed"
     },
     {
@@ -43,7 +43,7 @@
         "개발",
         "MVP"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937744",
+      "scrapedAt": "2026-03-19T23:21:52.862146",
       "status": "completed"
     },
     {
@@ -65,7 +65,7 @@
         "LLM",
         "AI Agent"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937685",
+      "scrapedAt": "2026-03-19T23:21:52.862122",
       "status": "completed"
     },
     {
@@ -87,7 +87,7 @@
         "비전",
         "딥페이크"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937647",
+      "scrapedAt": "2026-03-19T23:21:52.862102",
       "status": "completed"
     },
     {
@@ -108,7 +108,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937636",
+      "scrapedAt": "2026-03-19T23:21:52.862089",
       "status": "completed"
     },
     {
@@ -129,7 +129,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937664",
+      "scrapedAt": "2026-03-19T23:21:52.862112",
       "status": "completed"
     },
     {
@@ -151,61 +151,25 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937617",
+      "scrapedAt": "2026-03-19T23:21:52.862060",
       "status": "completed"
     },
     {
-      "id": "linkareer-309334",
-      "title": "2026 딥테크 창업경진대회",
-      "description": "",
-      "organizer": "",
-      "deadline": "2026-03-18",
-      "startDate": "2026-03-18",
-      "prize": "",
-      "url": "https://linkareer.com/activity/309334",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "linkareer",
-      "tags": [],
-      "scrapedAt": "2026-03-18T23:22:56.666524",
-      "status": "active"
-    },
-    {
-      "id": "linkareer-309188",
-      "title": "[추천공모전] 제5회 고용노동 공공데이터·AI 활용 공모전(~5.14.)",
-      "description": "",
-      "organizer": "",
-      "deadline": "2026-03-18",
-      "startDate": "2026-03-18",
-      "prize": "",
-      "url": "https://linkareer.com/activity/309188",
-      "thumbnailUrl": "",
-      "category": "ai_ml",
-      "source": "linkareer",
-      "tags": [
-        "AI",
-        "데이터"
-      ],
-      "scrapedAt": "2026-03-18T23:22:57.657308",
-      "status": "active"
-    },
-    {
-      "id": "wevity-105751",
+      "id": "contestkorea-202603190013",
       "title": "한국데이터정보과학회 & SAS KOREA 제2회 데이터 분석 경진대회",
       "description": "",
       "organizer": "한국데이터정보과학회",
       "deadline": "2026-03-27",
-      "startDate": "2026-03-18",
+      "startDate": "2026-03-16",
       "prize": "",
-      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105751",
-      "thumbnailUrl": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603190013",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
       "category": "data",
-      "source": "wevity",
+      "source": "contestkorea",
       "tags": [
-        "데이터",
-        "과학"
+        "데이터"
       ],
-      "scrapedAt": "2026-03-18T23:23:07.539270",
+      "scrapedAt": "2026-03-19T23:21:00.501902",
       "status": "active"
     },
     {
@@ -221,7 +185,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.280621",
+      "scrapedAt": "2026-03-19T23:21:00.505167",
       "status": "active"
     },
     {
@@ -243,7 +207,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-03-18T23:23:39.937594",
+      "scrapedAt": "2026-03-19T23:21:52.862026",
       "status": "active"
     },
     {
@@ -252,14 +216,14 @@
       "description": "",
       "organizer": "(주)엔티렉스",
       "deadline": "2026-03-31",
-      "startDate": "2026-03-18",
+      "startDate": "2026-03-19",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=104744",
       "thumbnailUrl": "",
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:23:07.665506",
+      "scrapedAt": "2026-03-19T23:21:19.230025",
       "status": "active"
     },
     {
@@ -268,14 +232,14 @@
       "description": "",
       "organizer": "하나금융그룹",
       "deadline": "2026-04-06",
-      "startDate": "2026-03-18",
+      "startDate": "2026-03-19",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105706",
       "thumbnailUrl": "",
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:23:07.498029",
+      "scrapedAt": "2026-03-19T23:21:19.098876",
       "status": "active"
     },
     {
@@ -291,7 +255,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.278336",
+      "scrapedAt": "2026-03-19T23:21:00.502928",
       "status": "active"
     },
     {
@@ -307,7 +271,7 @@
       "category": "game",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.280941",
+      "scrapedAt": "2026-03-19T23:21:00.505467",
       "status": "active"
     },
     {
@@ -323,7 +287,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.279643",
+      "scrapedAt": "2026-03-19T23:21:00.504210",
       "status": "active"
     },
     {
@@ -332,7 +296,7 @@
       "description": "",
       "organizer": "교육부, 17개 시도교육청",
       "deadline": "2026-04-15",
-      "startDate": "2026-03-18",
+      "startDate": "2026-03-19",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105614",
       "thumbnailUrl": "",
@@ -342,7 +306,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-03-18T23:23:07.620374",
+      "scrapedAt": "2026-03-19T23:21:19.187207",
       "status": "active"
     },
     {
@@ -358,7 +322,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.277628",
+      "scrapedAt": "2026-03-19T23:21:00.502273",
       "status": "active"
     },
     {
@@ -374,7 +338,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.277997",
+      "scrapedAt": "2026-03-19T23:21:00.502589",
       "status": "active"
     },
     {
@@ -392,25 +356,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-03-18T23:22:43.279320",
-      "status": "active"
-    },
-    {
-      "id": "thinkcontest-103076",
-      "title": "제이플미디어X시리즈 <차세대 최애캐를 찾습니다> 웹소설 공모전",
-      "description": "",
-      "organizer": "제이플미디어(주)",
-      "deadline": "2026-05-03",
-      "startDate": "2026-03-19",
-      "prize": "상금 5,000만 원 및 선인세 2,000만 원",
-      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103076",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/41d84fd21a2a49f69b25087af69a10e5.png",
-      "category": "web_mobile",
-      "source": "thinkcontest",
-      "tags": [
-        "웹"
-      ],
-      "scrapedAt": "2026-03-18T23:22:45.994881",
+      "scrapedAt": "2026-03-19T23:21:00.503868",
       "status": "active"
     },
     {
@@ -426,7 +372,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.279013",
+      "scrapedAt": "2026-03-19T23:21:00.503572",
       "status": "active"
     },
     {
@@ -435,7 +381,7 @@
       "description": "",
       "organizer": "서울특별시",
       "deadline": "2026-05-13",
-      "startDate": "2026-03-18",
+      "startDate": "2026-03-19",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105671",
       "thumbnailUrl": "",
@@ -444,7 +390,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-03-18T23:23:07.580158",
+      "scrapedAt": "2026-03-19T23:21:19.141887",
       "status": "active"
     },
     {
@@ -460,7 +406,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.278656",
+      "scrapedAt": "2026-03-19T23:21:00.503258",
       "status": "active"
     },
     {
@@ -472,11 +418,11 @@
       "startDate": "2026-03-16",
       "prize": "",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603120016",
-      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "thumbnailUrl": "",
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.280294",
+      "scrapedAt": "2026-03-19T23:21:00.504827",
       "status": "active"
     },
     {
@@ -492,23 +438,25 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.279983",
+      "scrapedAt": "2026-03-19T23:21:00.504515",
       "status": "active"
     },
     {
-      "id": "contestkorea-202603100063",
-      "title": "제13회 산업안전보건 조사자료 논문경진대회",
+      "id": "thinkcontest-103146",
+      "title": "아두이노 우노 Q 및 앱 랩 미래 발명 공모전",
       "description": "",
-      "organizer": "안전보건공단 산업안전보건연구원",
-      "deadline": "2026-05-31",
-      "startDate": "2026-03-01",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603100063",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-03-18T23:22:43.281268",
+      "organizer": "아두이노, 퀄컴테크날러지스, 엣지 임펄스",
+      "deadline": "2026-08-31",
+      "startDate": "2026-03-04",
+      "prize": "미화 $3,000",
+      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=103146",
+      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/35eaa0780ec440fca775e285ae76bba1.jpg",
+      "category": "web_mobile",
+      "source": "thinkcontest",
+      "tags": [
+        "앱"
+      ],
+      "scrapedAt": "2026-03-19T23:21:03.025489",
       "status": "active"
     }
   ]
