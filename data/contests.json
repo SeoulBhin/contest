@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T23:47:58.173580",
+  "lastUpdated": "2026-05-12T23:51:56.371243",
   "totalCount": 37,
   "contests": [
     {
@@ -20,7 +20,7 @@
         "피싱·스캠 탐지",
         "MVP"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171249",
+      "scrapedAt": "2026-05-12T23:51:56.368332",
       "status": "completed"
     },
     {
@@ -41,7 +41,7 @@
         "정형",
         "F1 Score"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171290",
+      "scrapedAt": "2026-05-12T23:51:56.368389",
       "status": "completed"
     },
     {
@@ -63,7 +63,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171228",
+      "scrapedAt": "2026-05-12T23:51:56.368310",
       "status": "completed"
     },
     {
@@ -85,7 +85,7 @@
         "Vision AI",
         "시각 기반 물리 이해"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171215",
+      "scrapedAt": "2026-05-12T23:51:56.368298",
       "status": "completed"
     },
     {
@@ -107,7 +107,7 @@
         "LLM",
         "코드제출"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171205",
+      "scrapedAt": "2026-05-12T23:51:56.368285",
       "status": "completed"
     },
     {
@@ -129,7 +129,7 @@
         "스마트물류",
         "MAE"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171192",
+      "scrapedAt": "2026-05-12T23:51:56.368269",
       "status": "completed"
     },
     {
@@ -145,61 +145,115 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:00.254045",
+      "scrapedAt": "2026-05-12T23:50:55.351215",
       "status": "completed"
     },
     {
-      "id": "linkareer-320961",
-      "title": "대한의사협회 제 43차 종합학술대회 AI 영상공모전",
+      "id": "linkareer-321347",
+      "title": "2nd NAMUHX Hackathon",
       "description": "",
       "organizer": "",
-      "deadline": "2026-05-11",
-      "startDate": "2026-05-11",
+      "deadline": "2026-05-12",
+      "startDate": "2026-05-12",
       "prize": "",
-      "url": "https://linkareer.com/activity/320961",
+      "url": "https://linkareer.com/activity/321347",
       "thumbnailUrl": "",
-      "category": "ai_ml",
+      "category": "hackathon",
       "source": "linkareer",
-      "tags": [
-        "AI"
-      ],
-      "scrapedAt": "2026-05-11T23:47:16.765959",
+      "tags": [],
+      "scrapedAt": "2026-05-12T23:51:12.092975",
       "status": "active"
     },
     {
-      "id": "linkareer-320897",
-      "title": "SK 이노베이션, 「AI 임팩트 솔루션」 공모전",
+      "id": "linkareer-321340",
+      "title": "게임 '두더지치과' BGM 음악공모전 레모네이션 (~5/16까지)",
       "description": "",
       "organizer": "",
-      "deadline": "2026-05-11",
-      "startDate": "2026-05-11",
+      "deadline": "2026-05-12",
+      "startDate": "2026-05-12",
       "prize": "",
-      "url": "https://linkareer.com/activity/320897",
+      "url": "https://linkareer.com/activity/321340",
       "thumbnailUrl": "",
-      "category": "ai_ml",
+      "category": "game",
       "source": "linkareer",
       "tags": [
-        "AI"
+        "게임"
       ],
-      "scrapedAt": "2026-05-11T23:47:17.425875",
+      "scrapedAt": "2026-05-12T23:51:12.227679",
       "status": "active"
     },
     {
-      "id": "linkareer-320817",
-      "title": "[데이콘/JB금융그룹] JB금융그룹 Fin:AI Challenge (~6/12)",
+      "id": "linkareer-321315",
+      "title": "2026년 경기도 공공데이터·AI 활용 창업경진대회",
       "description": "",
       "organizer": "",
-      "deadline": "2026-05-11",
-      "startDate": "2026-05-11",
+      "deadline": "2026-05-12",
+      "startDate": "2026-05-12",
       "prize": "",
-      "url": "https://linkareer.com/activity/320817",
+      "url": "https://linkareer.com/activity/321315",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "linkareer",
+      "tags": [
+        "AI",
+        "데이터"
+      ],
+      "scrapedAt": "2026-05-12T23:51:12.704900",
+      "status": "active"
+    },
+    {
+      "id": "linkareer-321213",
+      "title": "2026 우주항공·제조 산업 현장 AI 적용 공모전",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-05-12",
+      "startDate": "2026-05-12",
+      "prize": "",
+      "url": "https://linkareer.com/activity/321213",
       "thumbnailUrl": "",
       "category": "ai_ml",
       "source": "linkareer",
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-11T23:47:18.157452",
+      "scrapedAt": "2026-05-12T23:51:14.019871",
+      "status": "active"
+    },
+    {
+      "id": "linkareer-321211",
+      "title": "2026 제조 AI 경진대회",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-05-12",
+      "startDate": "2026-05-12",
+      "prize": "",
+      "url": "https://linkareer.com/activity/321211",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "linkareer",
+      "tags": [
+        "AI"
+      ],
+      "scrapedAt": "2026-05-12T23:51:14.141571",
+      "status": "active"
+    },
+    {
+      "id": "linkareer-321204",
+      "title": "제7회 AI·ICT 장애인 보조공학기기 공모전",
+      "description": "",
+      "organizer": "",
+      "deadline": "2026-05-12",
+      "startDate": "2026-05-12",
+      "prize": "",
+      "url": "https://linkareer.com/activity/321204",
+      "thumbnailUrl": "",
+      "category": "ai_ml",
+      "source": "linkareer",
+      "tags": [
+        "AI",
+        "공학"
+      ],
+      "scrapedAt": "2026-05-12T23:51:14.373880",
       "status": "active"
     },
     {
@@ -218,44 +272,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-05-11T23:47:00.252055",
-      "status": "active"
-    },
-    {
-      "id": "thinkcontest-105246",
-      "title": "원주 AI 교육센터 명칭 공모",
-      "description": "",
-      "organizer": "원주시",
-      "deadline": "2026-05-20",
-      "startDate": "2026-05-07",
-      "prize": "30만원",
-      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105246",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/bcd2dd97b51c46f19779cde3f00b2efc.png",
-      "category": "ai_ml",
-      "source": "thinkcontest",
-      "tags": [
-        "AI"
-      ],
-      "scrapedAt": "2026-05-11T23:47:03.854004",
-      "status": "active"
-    },
-    {
-      "id": "wevity-107159",
-      "title": "2026년 관광데이터 활용 공모전 생성형 AI 활용 관광 프롬프톤 부문",
-      "description": "",
-      "organizer": "한국관광공사",
-      "deadline": "2026-05-20",
-      "startDate": "2026-05-11",
-      "prize": "",
-      "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107159",
-      "thumbnailUrl": "",
-      "category": "ai_ml",
-      "source": "wevity",
-      "tags": [
-        "AI",
-        "데이터"
-      ],
-      "scrapedAt": "2026-05-11T23:47:25.111007",
+      "scrapedAt": "2026-05-12T23:50:55.349396",
       "status": "active"
     },
     {
@@ -266,7 +283,7 @@
       "deadline": "2026-05-22",
       "startDate": "2026-05-04",
       "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605020002",
+      "url": "https://www.contestkorea.com/sub//sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605020002",
       "thumbnailUrl": "",
       "category": "ai_ml",
       "source": "contestkorea",
@@ -274,7 +291,7 @@
         "AI",
         "인공지능"
       ],
-      "scrapedAt": "2026-05-11T23:47:00.254620",
+      "scrapedAt": "2026-05-12T23:50:55.347739",
       "status": "active"
     },
     {
@@ -283,14 +300,30 @@
       "description": "",
       "organizer": "문화체육관광부, 한국콘텐츠진흥원",
       "deadline": "2026-05-25",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106851",
       "thumbnailUrl": "",
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:25.073586",
+      "scrapedAt": "2026-05-12T23:51:23.132551",
+      "status": "active"
+    },
+    {
+      "id": "contestkorea-202604140008",
+      "title": "2026년 제23회 통화정책 경시대회",
+      "description": "",
+      "organizer": "한국은행",
+      "deadline": "2026-05-27",
+      "startDate": "2026-05-22",
+      "prize": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604140008",
+      "thumbnailUrl": "https://www.contestkorea.com/pub/img/board/ic_new.gif",
+      "category": "other",
+      "source": "contestkorea",
+      "tags": [],
+      "scrapedAt": "2026-05-12T23:50:55.348592",
       "status": "active"
     },
     {
@@ -306,7 +339,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:00.252357",
+      "scrapedAt": "2026-05-12T23:50:55.349684",
       "status": "active"
     },
     {
@@ -315,7 +348,7 @@
       "description": "",
       "organizer": "세종특별자치시",
       "deadline": "2026-05-29",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106884",
       "thumbnailUrl": "",
@@ -325,7 +358,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.183524",
+      "scrapedAt": "2026-05-12T23:51:23.228719",
       "status": "active"
     },
     {
@@ -334,7 +367,7 @@
       "description": "",
       "organizer": "식품의약품안전처",
       "deadline": "2026-05-29",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106859",
       "thumbnailUrl": "",
@@ -344,7 +377,7 @@
         "AI",
         "데이터"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.219316",
+      "scrapedAt": "2026-05-12T23:51:23.286795",
       "status": "active"
     },
     {
@@ -353,7 +386,7 @@
       "description": "",
       "organizer": "국토교통부",
       "deadline": "2026-05-29",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106412",
       "thumbnailUrl": "",
@@ -362,7 +395,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.296286",
+      "scrapedAt": "2026-05-12T23:51:23.361265",
       "status": "active"
     },
     {
@@ -381,7 +414,7 @@
         "AI",
         "인공지능"
       ],
-      "scrapedAt": "2026-05-11T23:47:00.253491",
+      "scrapedAt": "2026-05-12T23:50:55.350713",
       "status": "active"
     },
     {
@@ -401,7 +434,7 @@
         "해커톤",
         "블록체인"
       ],
-      "scrapedAt": "2026-05-11T23:47:00.253763",
+      "scrapedAt": "2026-05-12T23:50:55.350961",
       "status": "active"
     },
     {
@@ -410,7 +443,7 @@
       "description": "",
       "organizer": "네이버 X 어반플레이",
       "deadline": "2026-05-31",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107186",
       "thumbnailUrl": "",
@@ -419,7 +452,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-11T23:47:24.996909",
+      "scrapedAt": "2026-05-12T23:51:23.043744",
       "status": "active"
     },
     {
@@ -428,7 +461,7 @@
       "description": "",
       "organizer": "과학기술정보통신부",
       "deadline": "2026-05-31",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=107129",
       "thumbnailUrl": "",
@@ -437,7 +470,7 @@
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.147570",
+      "scrapedAt": "2026-05-12T23:51:23.188888",
       "status": "active"
     },
     {
@@ -459,7 +492,7 @@
         "회귀",
         "LiDAR"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171184",
+      "scrapedAt": "2026-05-12T23:51:56.368254",
       "status": "active"
     },
     {
@@ -477,41 +510,25 @@
       "tags": [
         "SW"
       ],
-      "scrapedAt": "2026-05-11T23:47:00.252917",
+      "scrapedAt": "2026-05-12T23:50:55.350193",
       "status": "active"
     },
     {
-      "id": "thinkcontest-105241",
-      "title": "2026 LBS 스타트업 챌린지 (구. 위치정보 우수 비즈니스 모델 발굴 공모전)",
+      "id": "contestkorea-202605110056",
+      "title": "[데이콘/JB금융그룹] JB금융그룹 Fin:AI Challenge",
       "description": "",
-      "organizer": "방송미디어통신위원회",
-      "deadline": "2026-06-10",
-      "startDate": "2026-05-11",
-      "prize": "500만원",
-      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105241",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/f4b263ddb0814dba8959a151f93b8680.jpg",
-      "category": "other",
-      "source": "thinkcontest",
-      "tags": [],
-      "scrapedAt": "2026-05-11T23:47:03.854070",
-      "status": "active"
-    },
-    {
-      "id": "thinkcontest-105253",
-      "title": "공고 재확인 연락 예정(지혜) 2차 등록 진행// 제7회 AI·ICT 장애인 보조공학기기 공모전",
-      "description": "",
-      "organizer": "고용노동부",
+      "organizer": "JB금융그룹",
       "deadline": "2026-06-12",
       "startDate": "2026-05-11",
-      "prize": "300만원",
-      "url": "https://www.thinkcontest.com/thinkgood/user/contest/view.do?contest_pk=105253",
-      "thumbnailUrl": "https://www.thinkcontest.com/_attach/thinkgood/contest_poster/image/065a095f6b604441acc55e2df78b173a.png",
+      "prize": "",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605110056",
+      "thumbnailUrl": "https://www.contestkorea.com/img/main/spc.gif",
       "category": "ai_ml",
-      "source": "thinkcontest",
+      "source": "contestkorea",
       "tags": [
         "AI"
       ],
-      "scrapedAt": "2026-05-11T23:47:03.853922",
+      "scrapedAt": "2026-05-12T23:50:55.348194",
       "status": "active"
     },
     {
@@ -520,7 +537,7 @@
       "description": "",
       "organizer": "경상남도",
       "deadline": "2026-06-15",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106718",
       "thumbnailUrl": "",
@@ -529,7 +546,7 @@
       "tags": [
         "데이터"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.253710",
+      "scrapedAt": "2026-05-12T23:51:23.324206",
       "status": "active"
     },
     {
@@ -538,7 +555,7 @@
       "description": "",
       "organizer": "문화체육관광부",
       "deadline": "2026-06-26",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106965",
       "thumbnailUrl": "",
@@ -548,7 +565,7 @@
         "인공지능",
         "데이터"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.034453",
+      "scrapedAt": "2026-05-12T23:51:23.089402",
       "status": "active"
     },
     {
@@ -557,7 +574,7 @@
       "description": "",
       "organizer": "산림청 국립산림과학원",
       "deadline": "2026-06-26",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106202",
       "thumbnailUrl": "",
@@ -567,7 +584,7 @@
         "AI",
         "과학"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.363821",
+      "scrapedAt": "2026-05-12T23:51:23.443565",
       "status": "active"
     },
     {
@@ -589,7 +606,7 @@
         "논문",
         "분류"
       ],
-      "scrapedAt": "2026-05-11T23:47:58.171165",
+      "scrapedAt": "2026-05-12T23:51:56.368218",
       "status": "active"
     },
     {
@@ -605,7 +622,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:00.251493",
+      "scrapedAt": "2026-05-12T23:50:55.348881",
       "status": "active"
     },
     {
@@ -621,7 +638,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:00.253211",
+      "scrapedAt": "2026-05-12T23:50:55.350452",
       "status": "active"
     },
     {
@@ -630,14 +647,14 @@
       "description": "",
       "organizer": "엔티렉스",
       "deadline": "2026-06-30",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=106229",
       "thumbnailUrl": "",
       "category": "other",
       "source": "wevity",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:25.330232",
+      "scrapedAt": "2026-05-12T23:51:23.404517",
       "status": "active"
     },
     {
@@ -646,7 +663,7 @@
       "description": "",
       "organizer": "국립광주과학관",
       "deadline": "2026-06-30",
-      "startDate": "2026-05-11",
+      "startDate": "2026-05-12",
       "prize": "",
       "url": "https://www.wevity.com/?c=find&s=1&mode=ing&gub=1&cidx=20&gbn=view&gp=1&ix=105859",
       "thumbnailUrl": "",
@@ -656,7 +673,7 @@
         "AI",
         "인공지능"
       ],
-      "scrapedAt": "2026-05-11T23:47:25.397178",
+      "scrapedAt": "2026-05-12T23:51:23.480950",
       "status": "active"
     },
     {
@@ -672,23 +689,7 @@
       "category": "other",
       "source": "contestkorea",
       "tags": [],
-      "scrapedAt": "2026-05-11T23:47:00.252630",
-      "status": "active"
-    },
-    {
-      "id": "contestkorea-202605040005",
-      "title": "2026 국가안보 논문 · 아이디어 공모전",
-      "description": "",
-      "organizer": "국가정보원",
-      "deadline": "2026-07-31",
-      "startDate": "2026-04-27",
-      "prize": "",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605040005",
-      "thumbnailUrl": "",
-      "category": "other",
-      "source": "contestkorea",
-      "tags": [],
-      "scrapedAt": "2026-05-11T23:47:00.254336",
+      "scrapedAt": "2026-05-12T23:50:55.349931",
       "status": "active"
     }
   ]
